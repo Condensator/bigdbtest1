@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreateSundryRecurringPaymentSchedule",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "ExceptionLog",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "GlobalParameters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLOrgStructureConfigs",
+    "type": "Table"
+  }
+]

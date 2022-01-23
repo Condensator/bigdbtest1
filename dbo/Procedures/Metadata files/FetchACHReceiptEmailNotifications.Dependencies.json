@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ACHReceiptApplicationReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ACHReceipts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receipts_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetails",
+    "type": "Table"
+  }
+]

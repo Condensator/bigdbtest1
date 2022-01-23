@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ActivityStatusConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ActivityTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentLists",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UserGroups",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

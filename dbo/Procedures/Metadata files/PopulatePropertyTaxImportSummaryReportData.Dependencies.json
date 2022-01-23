@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PropertyTaxImportSummaryReport_Extract",
+    "type": "Table"
+  }
+]

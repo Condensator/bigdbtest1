@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditProfiles",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmployeesAssignedToParties",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "WorkFlowHistoryRelatedEntityTransactionConfigs",
+    "type": "Table"
+  }
+]

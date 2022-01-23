@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Branches",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CostCenterConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InstrumentTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LineofBusinesses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodes",
+    "type": "Table"
+  }
+]

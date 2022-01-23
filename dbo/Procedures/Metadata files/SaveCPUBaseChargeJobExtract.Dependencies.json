@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CPUBaseChargeJobExtracts",
+    "type": "Table"
+  }
+]

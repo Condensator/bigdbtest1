@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EntityResources",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PPTExtractDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PPTExtractIncludedAssetDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetsLocationChangeDetails",
+    "type": "Table"
+  }
+]

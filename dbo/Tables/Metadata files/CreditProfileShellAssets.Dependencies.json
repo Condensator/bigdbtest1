@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetCatalogs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfiles",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Locations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProposalShellAssets",
+    "type": "Table"
+  }
+]

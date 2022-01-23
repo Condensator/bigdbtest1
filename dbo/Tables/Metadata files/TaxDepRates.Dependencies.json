@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CapitalCostAllowanceClasses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "FloatRateIndexes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxDepConventions",
+    "type": "Table"
+  }
+]

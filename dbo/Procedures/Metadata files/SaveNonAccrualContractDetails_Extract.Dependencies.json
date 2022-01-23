@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "NonAccrualContractDetails_Extract",
+    "type": "Table"
+  }
+]

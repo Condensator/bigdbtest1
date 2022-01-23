@@ -1,0 +1,57 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Funders",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeasePaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanIncomeSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanPaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableForTransferFundingSources",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableForTransfers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableForTransferServicings",
+    "type": "Table"
+  }
+]

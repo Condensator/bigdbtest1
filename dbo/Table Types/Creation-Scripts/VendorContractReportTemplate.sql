@@ -1,0 +1,28 @@
+CREATE TYPE [dbo].[VendorContractReportTemplate] AS TABLE(
+	[Status] [nvarchar](16) COLLATE Latin1_General_CI_AS NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[ContractFilterOption] [nvarchar](5) COLLATE Latin1_General_CI_AS NULL,
+	[CommencementDate] [nvarchar](17) COLLATE Latin1_General_CI_AS NULL,
+	[FromCommencement] [date] NULL,
+	[ToCommencement] [date] NULL,
+	[CommencementUpThrough] [date] NULL,
+	[CommencementRunDate] [int] NULL,
+	[SortBy] [nvarchar](25) COLLATE Latin1_General_CI_AS NULL,
+	[FromDate] [date] NULL,
+	[ToDate] [date] NULL,
+	[MaturityDate] [nvarchar](17) COLLATE Latin1_General_CI_AS NULL,
+	[UpThroughDate] [date] NULL,
+	[DaysFromRunDate] [int] NULL,
+	[CustomerId] [bigint] NULL,
+	[FromSequenceNumberId] [bigint] NULL,
+	[ToSequenceNumberId] [bigint] NULL,
+	[ProgramVendorId] [bigint] NULL,
+	[DealerOrDistributerId] [bigint] NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

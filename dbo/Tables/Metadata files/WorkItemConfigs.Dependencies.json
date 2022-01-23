@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "TransactionConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TransactionStageConfigs",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplicationInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplicationReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplicationReceivableGroups",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplications",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetailsWithholdingTaxDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoiceReceiptDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTaxDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTaxes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTaxImpositions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableWithholdingTaxDetails",
+    "type": "Table"
+  }
+]

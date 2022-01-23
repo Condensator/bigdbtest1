@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "MaturityMonitors",
+    "type": "Table"
+  }
+]

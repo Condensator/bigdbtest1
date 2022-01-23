@@ -1,0 +1,28 @@
+CREATE TYPE [dbo].[VertexAssetDetail_Extract] AS TABLE(
+	[AssetId] [bigint] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[ContractId] [bigint] NULL,
+	[TitleTransferCode] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[AssetType] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[SaleLeasebackCode] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[IsElectronicallyDelivered] [bit] NOT NULL,
+	[GrossVehicleWeight] [decimal](16, 2) NOT NULL,
+	[SalesTaxExemptionLevel] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[AssetCatalogNumber] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[ContractTypeName] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[JobStepInstanceId] [bigint] NOT NULL,
+	[Usage] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[SalesTaxRemittanceResponsibility] [nvarchar](8) COLLATE Latin1_General_CI_AS NULL,
+	[PreviousSalesTaxRemittanceResponsibility] [nvarchar](8) COLLATE Latin1_General_CI_AS NULL,
+	[PreviousSalesTaxRemittanceResponsibilityEffectiveTillDate] [date] NULL,
+	[AssetSerialOrVIN] [nvarchar](100) COLLATE Latin1_General_CI_AS NULL,
+	[AssetUsageCondition] [nvarchar](4) COLLATE Latin1_General_CI_AS NULL,
+	[IsSKU] [bit] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

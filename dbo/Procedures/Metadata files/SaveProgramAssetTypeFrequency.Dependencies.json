@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ProgramAssetTypeFrequencies",
+    "type": "Table"
+  }
+]

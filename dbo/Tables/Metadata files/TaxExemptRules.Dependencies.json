@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "TaxExemptionReasonConfigs",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "TerminationTypeParameterConfigs",
+    "type": "Table"
+  }
+]

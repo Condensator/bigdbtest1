@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CurrencyCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Customers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InsuranceCompanies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InsurancePolicies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InsurancePolicyCoverageDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyContacts",
+    "type": "Table"
+  }
+]

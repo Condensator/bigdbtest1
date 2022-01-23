@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AMLRiskAssessments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AMLRiskCategoryConfigs",
+    "type": "Table"
+  }
+]

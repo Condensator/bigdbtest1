@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "IsStringNullOrEmpty",
+    "type": "Function"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplicationInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplications",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypes",
+    "type": "Table"
+  }
+]

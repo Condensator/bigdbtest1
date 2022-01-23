@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LeaseAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PreQuoteLeases",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PreQuotes",
+    "type": "Table"
+  }
+]

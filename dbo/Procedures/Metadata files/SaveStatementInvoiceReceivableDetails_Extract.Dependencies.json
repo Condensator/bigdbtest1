@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "StatementInvoiceReceivableDetails_Extract",
+    "type": "Table"
+  }
+]

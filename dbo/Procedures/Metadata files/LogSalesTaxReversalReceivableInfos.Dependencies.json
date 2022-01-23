@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Discountings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobStepInstanceLogs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalReceivableDetail_Extract",
+    "type": "Table"
+  }
+]

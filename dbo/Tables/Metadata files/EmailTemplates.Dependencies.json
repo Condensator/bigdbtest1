@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EmailTemplateEntityConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmailTemplateTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  }
+]

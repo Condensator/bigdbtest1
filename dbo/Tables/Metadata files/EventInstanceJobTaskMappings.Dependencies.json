@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EventInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Jobs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobSteps",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobTaskConfigs",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LeaseExtensionJobExtracts",
+    "type": "Table"
+  }
+]

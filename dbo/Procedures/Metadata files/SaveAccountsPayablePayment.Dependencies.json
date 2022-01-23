@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AccountsPayablePayments",
+    "type": "Table"
+  }
+]

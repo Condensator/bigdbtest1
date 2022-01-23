@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CurrencyCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptAllocations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptBatchDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptBatches",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receipts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptTypes",
+    "type": "Table"
+  }
+]

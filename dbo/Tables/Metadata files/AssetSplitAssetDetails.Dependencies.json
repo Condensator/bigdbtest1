@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetFeatures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetSplitAssets",
+    "type": "Table"
+  }
+]

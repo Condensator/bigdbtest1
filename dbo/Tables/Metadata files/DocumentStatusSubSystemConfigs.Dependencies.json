@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentStatusConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SubSystemConfigs",
+    "type": "Table"
+  }
+]

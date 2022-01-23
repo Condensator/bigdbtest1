@@ -1,0 +1,27 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetLocations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssumptionTaxAssessmentDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseTaxAssessmentDetails",
+    "type": "Table"
+  }
+]

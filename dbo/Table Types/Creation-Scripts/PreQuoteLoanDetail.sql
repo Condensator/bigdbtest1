@@ -1,0 +1,28 @@
+CREATE TYPE [dbo].[PreQuoteLoanDetail] AS TABLE(
+	[PaydownReason] [nvarchar](30) COLLATE Latin1_General_CI_AS NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[PrincipalPaydown_Amount] [decimal](16, 2) NOT NULL,
+	[PrincipalPaydown_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[InterestPaydown_Amount] [decimal](16, 2) NOT NULL,
+	[InterestPaydown_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[PrePaymentPenalty_Amount] [decimal](16, 2) NOT NULL,
+	[PrePaymentPenalty_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[LateFee_Amount] [decimal](16, 2) NOT NULL,
+	[LateFee_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[OtherCharge_Amount] [decimal](16, 2) NOT NULL,
+	[OtherCharge_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[IsActive] [bit] NOT NULL,
+	[IsComputationPerformed] [bit] NOT NULL,
+	[InterestPaydownSalesTax_Amount] [decimal](16, 2) NOT NULL,
+	[InterestPaydownSalesTax_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[IsSalesTaxAssessed] [bit] NOT NULL,
+	[PreQuoteLoanId] [bigint] NOT NULL,
+	[PreQuoteId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

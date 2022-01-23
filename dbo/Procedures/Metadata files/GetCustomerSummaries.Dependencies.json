@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assumptions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ContractAssumptionHistories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ContractThirdPartyRelationships",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ConvertCSVToBigIntTable",
+    "type": "TF"
+  },
+  {
+    "schema": "dbo",
+    "name": "CustomerThirdPartyRelationships",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  }
+]

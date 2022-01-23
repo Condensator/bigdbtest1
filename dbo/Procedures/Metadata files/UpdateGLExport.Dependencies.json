@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "GLJournalDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobStepInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobSteps",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobTaskConfigs",
+    "type": "Table"
+  }
+]

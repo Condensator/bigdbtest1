@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BlendedIncomeSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFloatRateIncomes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseIncomeSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanIncomeSchedules",
+    "type": "Table"
+  }
+]

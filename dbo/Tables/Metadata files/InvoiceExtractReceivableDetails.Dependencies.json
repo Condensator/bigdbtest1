@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CurrencyCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCategories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoiceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  }
+]

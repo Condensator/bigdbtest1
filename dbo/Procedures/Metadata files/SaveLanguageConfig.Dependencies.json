@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LanguageConfigs",
+    "type": "Table"
+  }
+]

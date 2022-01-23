@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DraftEntityBatches",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DraftEntityDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "MasterConfigDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "MasterConfigSetDetails",
+    "type": "Table"
+  }
+]

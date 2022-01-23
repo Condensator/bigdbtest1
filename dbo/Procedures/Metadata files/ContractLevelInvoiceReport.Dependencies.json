@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "GenericInvoiceComments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GetBlendDetails",
+    "type": "TF"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  }
+]

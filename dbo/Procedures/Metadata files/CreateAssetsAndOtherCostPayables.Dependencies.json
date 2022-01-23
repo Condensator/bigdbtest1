@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceOtherCostDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceOtherCosts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Payables",
+    "type": "Table"
+  }
+]

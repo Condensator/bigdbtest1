@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreateProcessingLog",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "ExceptionLog",
+    "type": "Procedure"
+  }
+]

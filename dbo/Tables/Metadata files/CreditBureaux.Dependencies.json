@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditBureauConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Customers",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxAssetTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxReceivableTypes",
+    "type": "Table"
+  }
+]

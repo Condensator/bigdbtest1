@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptBatchDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptBatches",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receipts",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EventInstanceJobTaskMappings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EventInstances",
+    "type": "Table"
+  }
+]

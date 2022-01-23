@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "StaticHistoryAssetLocationHistories",
+    "type": "Table"
+  }
+]

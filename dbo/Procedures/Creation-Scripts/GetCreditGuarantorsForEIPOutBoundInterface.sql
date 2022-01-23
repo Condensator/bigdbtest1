@@ -1,0 +1,160 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROC [dbo].[GetCreditGuarantorsForEIPOutBoundInterface]
+AS
+BEGIN
+SET NOCOUNT ON;
+WITH CTE_PartyContacts AS
+(
+SELECT * FROM(
+SELECT
+PartyId=PartyContacts.PartyId,
+PartyContactId=PartyContacts.Id,
+PartyContactTypeId=PartyContactTypes.Id,
+PartyFullName=PartyContacts.FullName,
+GurantorTaxId=PartyContacts.UniqueIdentifier,
+RANK=ROW_NUMBER() OVER(PARTITION BY PartyId ORDER BY PartyContacts.Id DESC)
+FROM PartyContacts
+INNER JOIN PartyContactTypes ON PartyContacts.Id=PartyContactTypes.PartyContactId
+AND PartyContactTypes.ContactType='Main' AND PartyContacts.IsActive=1 AND PartyContactTypes.IsActive=1
+)TEMP WHERE RANK=1
+),
+CTE_Guarantors AS
+(
+SELECT
+CustomerId=Customers.Id
+,CustomerThirdPartyRelationshipId= CustomerThirdPartyRelationships.Id
+,GuarantorTypeDescription=CustomerThirdPartyRelationships.RelationshipType
+,GuarantorFName=CASE WHEN CustomerThirdPartyRelationships.RelationshipType='PersonalGuarantor' THEN PartyContacts.FirstName
+ELSE Guarantor.PartyName END
+,GuarantorLName=CASE WHEN CustomerThirdPartyRelationships.RelationshipType='PersonalGuarantor' THEN PartyContacts.LastName
+ELSE Guarantor.PartyName END
+,City=CASE WHEN CustomerThirdPartyRelationships.ThirdPartyAddressId Is Not NULL THEN CustomerThirdPartyAddress.City
+WHEN CustomerThirdPartyRelationships.RelationshipType='PersonalGuarantor' AND CustomerThirdPartyRelationships.ThirdPartyAddressId Is NULL THEN MailingAddress.City
+ELSE PartyAddresses.City END
+,StateCode=CASE WHEN CustomerThirdPartyRelationships.ThirdPartyAddressId Is Not NULL THEN CustomerThirdPartyState.LongName
+WHEN CustomerThirdPartyRelationships.RelationshipType='PersonalGuarantor' AND CustomerThirdPartyRelationships.ThirdPartyAddressId Is NULL THEN MailingAddressState.LongName
+ELSE States.LongName END
+,ZIP=CASE WHEN CustomerThirdPartyRelationships.ThirdPartyAddressId Is Not NULL THEN CustomerThirdPartyAddress.PostalCode
+WHEN CustomerThirdPartyRelationships.RelationshipType='PersonalGuarantor' AND CustomerThirdPartyRelationships.ThirdPartyAddressId Is NULL THEN MailingAddress.PostalCode
+ELSE PartyAddresses.PostalCode END
+,Country=CASE WHEN CustomerThirdPartyRelationships.ThirdPartyAddressId Is Not NULL THEN CustomerThirdPartyCountry.LongName
+WHEN CustomerThirdPartyRelationships.RelationshipType='PersonalGuarantor' AND CustomerThirdPartyRelationships.ThirdPartyAddressId Is NULL THEN MailingAddressCountry.LongName
+ELSE Countries.LongName END
+,LimitedGuaranteeComment=CustomerThirdPartyRelationships.Description
+,SSNFedTax='****'+Guarantor.LastFourDigitUniqueIdentificationNumber
+FROM Customers
+INNER JOIN Parties Customer ON Customer.Id=Customers.Id
+INNER JOIN CustomerThirdPartyRelationships ON Customers.Id=CustomerThirdPartyRelationships.CustomerId
+AND RelationshipType IN ('CorporateGuarantor','PersonalGuarantor')
+LEFT JOIN Parties Guarantor ON Guarantor.Id=CustomerThirdPartyRelationships.ThirdPartyId
+LEFT JOIN PartyAddresses CustomerThirdPartyAddress ON CustomerThirdPartyAddress.Id=CustomerThirdPartyRelationships.ThirdPartyAddressId
+LEFT JOIN States CustomerThirdPartyState ON CustomerThirdPartyState.Id=CustomerThirdPartyAddress.StateId AND CustomerThirdPartyState.IsActive=1
+LEFT JOIN Countries CustomerThirdPartyCountry ON CustomerThirdPartyCountry.Id=CustomerThirdPartyState.CountryId AND CustomerThirdPartyCountry.IsActive=1
+LEFT JOIN PartyAddresses ON PartyAddresses.PartyId=Customer.Id
+AND PartyAddresses.IsMain=1
+LEFT JOIN States ON States.Id=PartyAddresses.StateId AND States.IsActive=1
+LEFT JOIN Countries ON Countries.Id=PartyAddresses.Id AND Countries.IsActive=1
+LEFT JOIN PartyContacts ON PartyContacts.Id=CustomerThirdPartyRelationships.ThirdPartyContactId
+LEFT JOIN PartyAddresses MailingAddress ON MailingAddress.Id=PartyContacts.MailingAddressId AND MailingAddress.IsMain=1
+LEFT JOIN States MailingAddressState ON MailingAddressState.Id=MailingAddress.StateId AND MailingAddressState.IsActive=1
+LEFT JOIN Countries MailingAddressCountry ON MailingAddressCountry.Id=MailingAddressState.CountryId AND MailingAddressCountry.IsActive=1
+),
+CTE_CreditProfilesForCreditApplication AS
+(
+SELECT CreditProfileId=CreditProfiles.Id
+FROM CreditProfiles
+WHERE Status IN ('Cancelled','Declined') AND DATEPART(YYYY,StatusDate)=DATEPART(YYYY,GETDATE()) AND DATEPART(MM,StatusDate)=DATEPART(MM,GETDATE())
+UNION ALL
+SELECT CreditProfileId=CreditProfiles.Id
+FROM CreditProfiles Where Status IN ('Approved','Pending')
+),
+CTE_CreditProfilesWithLatestLiquidCredits AS
+(
+SELECT * FROM
+(
+Select
+CreditProfileId=CreditProfiles.Id,
+LiquidCreditId=CreditBureauRequests.Id,
+LiquidCreditThirdPartyId=CreditBureauRqstConsumers.CreditProfileThirdPartyRelationshipId,
+RANK=ROW_NUMBER() OVER (Partition By CreditProfiles.Id ORDER BY CreditBureauRequests.Id DESC)
+FROM CreditProfiles
+INNER JOIN CTE_CreditProfilesForCreditApplication ON CTE_CreditProfilesForCreditApplication.CreditProfileId=CreditProfiles.Id
+INNER JOIN CreditBureauRequests ON CreditProfiles.Id=CreditBureauRequests.CreditProfileId
+AND CreditBureauRequests.DataRequestStatus IN ('Completed','Failed','NeedsReview')
+INNER JOIN CreditBureauRqstConsumers ON CreditBureauRqstConsumers.CreditBureauRequestId=CreditBureauRequests.Id
+) TEMP Where RANK=1
+)
+SELECT
+AppID=CreditApplications.Id,
+GuarantorFName=CTE_Guarantors.GuarantorFName,
+GuarantorLName=CTE_Guarantors.GuarantorLName,
+City=CTE_Guarantors.City,
+StateCode=CTE_Guarantors.StateCode,
+Zip=CTE_Guarantors.ZIP,
+Country=CTE_Guarantors.Country,
+SSNFedTax=CTE_Guarantors.SSNFedTax,
+GuarantorTypeDescription=CTE_Guarantors.GuarantorTypeDescription,
+LimitedGuaranteeComment=CTE_Guarantors.LimitedGuaranteeComment,
+abnormal_rpt_indicator=CreditBureauRqstConsumers.AbnormalReportIndicator,
+alias_on_CB=CreditBureauRqstConsumers.AliasIndicator,
+bankruptcy_on_CB=CreditBureauRqstConsumers.BankruptcyOnFileIndicator,
+consumer_statement_on_CB=CreditBureauRqstConsumers.ConsumerStatementIndicator,
+contact_subscriber_on_CB=CreditBureauRqstConsumers.ContactSubscriberIndicator,
+credit_bureau=CreditBureauConfigs.Code,
+date_of_newest_trade_opening=CreditBureauRqstConsumers.MosSncMostRcntFinTLOpnd,
+disputed_account_on_CB=CreditBureauRqstConsumers.DisputedAccountIndicator,
+file_variation_on_CB=CreditBureauRqstConsumers.FileVariationIndicator,
+first_name=CreditBureauRqstConsumers.RequestedFirstName,
+last_name=CreditBureauRqstConsumers.RequestedLastName,
+lost_or_stolen_card_on_CB=CreditBureauRqstConsumers.LostOrStolenCardIndicator,
+maximum_delinquency_ever=CreditBureauRqstConsumers.MaxDelqEver,
+mo_since_60_day_delinquency=CreditBureauRqstConsumers.MosSncMostRcnt60pDelq,
+mo_since_most_recent_delq=CreditBureauRqstConsumers.MosSncMostRcnt30pDelq,
+mo_since_oldest_date_opened=CreditBureauRqstConsumers.MosSncOldestDtOpnd,
+no_of_finance_co_trade_lines=CreditBureauRqstConsumers.numFinTL,
+no_of_inqs_excl_past_7_days=CreditBureauRqstConsumers.NumInq0to5MosExclLast7Days,
+no_of_rev_trades_30_or_more=CreditBureauRqstConsumers.NumRevTL30pDaysEver,
+no_of_rev_trades_with_balance=CreditBureauRqstConsumers.NumRevOpenTLWBal,
+no_trades_30_or_more_and_pub=CreditBureauRqstConsumers.NumTL30pDaysEverDerogPR,
+no_trades_60_or_more_and_pub=CreditBureauRqstConsumers.NumTL60pDaysEverDerogPR,
+number_of_inquiries=CreditBureauRqstConsumers.NumInq0to11MosExclLast30Days,
+number_of_sats=CreditBureauRqstConsumers.NumTLOpnd3MosAndNotGT2x30Days,
+on_line_CB_score=CreditBureauRqstConsumers.CBScore,
+pct_trades_never_delinquent=CreditBureauRqstConsumers.PctTLNeverDelq,
+revolving_burden=CreditBureauRqstConsumers.NetFrctRev,
+social_security_number='',--Encryption Change
+time_since_most_recent_inquiry=CreditBureauRqstConsumers.MosSncMostRcntInq,
+time_since_newest_trade_open=CreditBureauRqstConsumers.MosSncMostRcntDtOpnd,
+worst_CB_rating=CreditBureauRqstConsumers.LowestRating,
+worst_IL_trade_rating=CreditBureauRqstConsumers.LowestRatingIL,
+cba_secrty_code_fraud_vctm=CreditBureauRqstConsumers.SecurityReportIndicator,
+LimitedGuaranteePercent=CreditProfileThirdPartyRelationships.RelationshipPercentage,
+Address1=PartyAddresses.AddressLine1,
+Address2=PartyAddresses.AddressLine2,
+IsAssigned=CreditProfileThirdPartyRelationships.IsActive,
+CustomerNumber=Parties.PartyNumber,
+CustomerContactID=CTE_PartyContacts.PartyContactId
+FROM CreditApplications
+INNER JOIN Opportunities ON CreditApplications.id=Opportunities.Id
+INNER JOIN CreditProfiles ON CreditProfiles.OpportunityId=Opportunities.Id
+INNER JOIN CreditProfileThirdPartyRelationships ON CreditProfileThirdPartyRelationships.CreditProfileId=CreditProfiles.Id
+AND CreditProfileThirdPartyRelationships.IsActive=1
+INNER JOIN CTE_Guarantors ON CreditProfileThirdPartyRelationships.ThirdPartyRelationshipId=CTE_Guarantors.CustomerThirdPartyRelationshipId
+LEFT JOIN CTE_CreditProfilesWithLatestLiquidCredits ON CreditProfiles.Id=CTE_CreditProfilesWithLatestLiquidCredits.CreditProfileId
+LEFT JOIN  CreditBureauRqstConsumers ON  CreditBureauRqstConsumers.CreditBureauRequestId=CTE_CreditProfilesWithLatestLiquidCredits.LiquidCreditId
+AND CreditBureauRqstConsumers.CreditProfileThirdPartyRelationshipId=CreditProfileThirdPartyRelationships.Id
+AND CreditBureauRqstConsumers.CreditProfileThirdPartyRelationshipId=CTE_CreditProfilesWithLatestLiquidCredits.LiquidCreditThirdPartyId
+LEFT JOIN CreditBureauConfigs on CreditBureauRqstConsumers.ActualCreditBureauId=CreditBureauConfigs.Id
+LEFT JOIN Customers ON Customers.Id=Opportunities.CustomerId AND Customers.Status='Active'
+LEFT JOIN Parties ON Parties.Id=Customers.Id
+LEFT JOIN PartyAddresses ON PartyAddresses.PartyId=Parties.Id AND PartyAddresses.IsActive=1 AND PartyAddresses.IsMain=1
+LEFT JOIN States ON States.Id=PartyAddresses.StateId AND States.IsActive=1
+LEFT JOIN Countries ON Countries.Id=States.CountryId AND Countries.IsActive=1
+LEFT JOIN CTE_PartyContacts ON CTE_PartyContacts.PartyId=Parties.Id
+ORDER BY CreditApplications.Id
+END
+
+GO

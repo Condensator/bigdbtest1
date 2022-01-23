@@ -1,0 +1,207 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BlendedIncomeSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BookDepreciations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CollateralAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPIContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPURestructures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DisbursementRequestPayables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DisbursementRequests",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingRepaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LateFeeReceivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFloatRateIncomes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFundings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseIncomeSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseInsuranceRequirements",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeasePaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFundings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanIncomeSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanInsuranceRequirements",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanPaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Payables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PaymentVoucherDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PaymentVouchers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SecurityDeposits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Sundries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SundryRecurrings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TiedContractPaymentDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TreasuryPayableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TreasuryPayables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UnallocatedRefunds",
+    "type": "Table"
+  }
+]

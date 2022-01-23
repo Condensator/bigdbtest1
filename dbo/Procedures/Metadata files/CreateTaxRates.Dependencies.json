@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Jurisdictions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxRateHeaders",
+    "type": "Table"
+  }
+]

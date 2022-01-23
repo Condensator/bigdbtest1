@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PlanBases",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PlanBasisAdministrativeCharges",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PlanFamilies",
+    "type": "Table"
+  }
+]

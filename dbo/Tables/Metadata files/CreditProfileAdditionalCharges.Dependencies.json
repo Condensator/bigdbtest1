@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AdditionalCharges",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfiles",
+    "type": "Table"
+  }
+]

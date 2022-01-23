@@ -1,0 +1,25 @@
+CREATE TYPE [dbo].[InvoiceExtractReceivableTaxDetail] AS TABLE(
+	[Rent_Amount] [decimal](16, 2) NULL,
+	[Rent_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[TaxAmount_Amount] [decimal](16, 2) NULL,
+	[TaxAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[ExternalJurisdictionId] [int] NULL,
+	[ImpositionType] [nvarchar](500) COLLATE Latin1_General_CI_AS NULL,
+	[TaxCodeId] [bigint] NULL,
+	[TaxRate] [decimal](10, 6) NULL,
+	[TaxTreatment] [nvarchar](13) COLLATE Latin1_General_CI_AS NULL,
+	[TaxTypeId] [bigint] NULL,
+	[InvoiceId] [bigint] NOT NULL,
+	[ReceivableTaxDetailId] [bigint] NOT NULL,
+	[ReceivableDetailId] [bigint] NOT NULL,
+	[AssetId] [bigint] NULL,
+	[ReceivableCodeId] [bigint] NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

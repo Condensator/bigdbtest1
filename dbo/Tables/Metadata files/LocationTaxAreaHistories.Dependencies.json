@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Locations",
+    "type": "Table"
+  }
+]

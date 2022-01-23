@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LineofBusinesses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

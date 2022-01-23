@@ -1,0 +1,67 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BillToes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CostCenterConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditApprovedStructures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DealProductTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DealTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LanguageConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LineofBusinesses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProductAndServiceTypeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramIndicatorConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptHierarchyTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RemitToes",
+    "type": "Table"
+  }
+]

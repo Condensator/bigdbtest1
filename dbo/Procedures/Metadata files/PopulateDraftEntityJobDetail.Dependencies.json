@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DraftEntityJobDetails",
+    "type": "Table"
+  }
+]

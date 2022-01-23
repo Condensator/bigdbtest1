@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CPUOverageTierScheduleDetails",
+    "type": "Table"
+  }
+]

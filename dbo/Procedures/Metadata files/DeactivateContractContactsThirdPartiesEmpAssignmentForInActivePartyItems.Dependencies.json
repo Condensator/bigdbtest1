@@ -1,0 +1,72 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ContractContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ContractThirdPartyRelationships",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ConvertCSVToBigIntTable",
+    "type": "TF"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfileContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfileThirdPartyRelationships",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CustomerThirdPartyRelationships",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmployeesAssignedToContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmployeesAssignedToCreditApplications",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmployeesAssignedToLOCs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmployeesAssignedToProposals",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PreQuoteContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProposalContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProposalThirdPartyRelationships",
+    "type": "Table"
+  }
+]

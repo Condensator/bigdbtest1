@@ -1,0 +1,77 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[CustomerExposureReport]
+(
+@CustomerId BIGINT = NULL,
+@CustomerNumber NVARCHAR(80) = NULL,
+@IncomeDate  Date,
+@ExposureCurrency nvarchar(3),
+@CurrentPortfolioId BIGINT = NULL
+)
+AS
+BEGIN
+SELECT
+CE.ExposureDate,
+PT.PartyNumber,
+PT.PartyName,
+CE.PrimaryCustomerCommencedLoanExposure_Amount,
+CE.PrimaryCustomerCommencedLoanExposure_Currency,
+CE.PrimaryCustomerCommencedLeaseExposure_Amount,
+CE.PrimaryCustomerCommencedLeaseExposure_Currency,
+CE.PrimaryCustomerOTPLeaseExposure_Amount,
+CE.PrimaryCustomerOTPLeaseExposure_Currency,
+CE.PrimaryCustomerUncommencedDealExposure_Amount,
+CE.PrimaryCustomerUncommencedDealExposure_Currency,
+CE.PrimaryCustomerLOCBalanceExposure_Amount,
+CE.PrimaryCustomerLOCBalanceExposure_Currency,
+CE.PrimaryCustomerUnallocatedSecurityDepositOSAR_Amount,
+CE.PrimaryCustomerUnallocatedSecurityDepositOSAR_Currency,
+CE.PrimaryCustomerUnallocatedSecurityDeposit_Amount,
+CE.PrimaryCustomerUnallocatedSecurityDeposit_Currency,
+CE.PrimaryCustomerUnallocatedCash_Amount,
+CE.PrimaryCustomerUnallocatedCash_Currency,
+CE.TotalPrimaryCustomerExposure_Amount,
+CE.TotalPrimaryCustomerExposure_Currency,
+CE.DirectRelationshipCommencedLoanExposure_Amount,
+CE.DirectRelationshipCommencedLoanExposure_Currency,
+CE.DirectRelationshipCommencedLeaseExposure_Amount,
+CE.DirectRelationshipCommencedLeaseExposure_Currency,
+CE.DirectRelationshipOTPLeaseExposure_Amount,
+CE.DirectRelationshipOTPLeaseExposure_Currency,
+CE.DirectRelationshipUncommencedDealExposure_Amount,
+CE.DirectRelationshipUncommencedDealExposure_Currency,
+CE.DirectRelationshipLOCBalanceExposure_Amount,
+CE.DirectRelationshipLOCBalanceExposure_Currency,
+CE.TotalDirectRelationshipExposure_Amount,
+CE.TotalDirectRelationshipExposure_Currency,
+CE.IndirectRelationshipCommencedLoanExposure_Amount,
+CE.IndirectRelationshipCommencedLoanExposure_Currency,
+CE.IndirectRelationshipCommencedLeaseExposure_Amount,
+CE.IndirectRelationshipCommencedLeaseExposure_Currency,
+CE.IndirectRelationshipOTPLeaseExposure_Amount,
+CE.IndirectRelationshipOTPLeaseExposure_Currency,
+CE.IndirectRelationshipUncommencedDealExposure_Amount,
+CE.IndirectRelationshipUncommencedDealExposure_Currency,
+CE.IndirectRelationshipLOCBalanceExposure_Amount,
+CE.IndirectRelationshipLOCBalanceExposure_Currency,
+CE.IndirectRelationshipUnallocatedSecurityDepositOSAR_Amount,
+CE.IndirectRelationshipUnallocatedSecurityDepositOSAR_Currency,
+CE.IndirectRelationshipUnallocatedSecurityDeposit_Amount,
+CE.IndirectRelationshipUnallocatedSecurityDeposit_Currency,
+CE.IndirectRelationshipUnallocatedCash_Amount,
+CE.IndirectRelationshipUnallocatedCash_Currency,
+CE.TotalIndirectRelationshipExposure_Amount,
+CE.TotalIndirectRelationshipExposure_Currency,
+CE.TotalCreditExposure_Amount,
+CE.TotalCreditExposure_Currency
+FROM
+CustomerExposures CE
+JOIN Parties PT ON  CE.ExposureCustomerId = PT.Id
+WHERE IsActive = 1
+AND ((@CustomerId IS NULL AND PT.PortfolioId=@CurrentPortfolioId) OR CE.ExposureCustomerId = @CustomerId)
+AND ExposureDate = @IncomeDate
+END
+
+GO

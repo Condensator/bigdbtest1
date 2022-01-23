@@ -1,0 +1,97 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssumptionAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssumptionPaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assumptions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BankAccounts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BlendedItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ContractACHAssignments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ContractAssumptionHistories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DriversAssignedToAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GetNextSqlSequence",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseBlendedItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeasePaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanPaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Locations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyBankAccounts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoices",
+    "type": "Table"
+  }
+]

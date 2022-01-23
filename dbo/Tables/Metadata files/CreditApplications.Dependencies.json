@@ -1,0 +1,52 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditProfiles",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DealProductTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DealTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Opportunities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyAddresses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Programs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Vendors",
+    "type": "Table"
+  }
+]

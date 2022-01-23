@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptReceivableDetailMigration_Extract",
+    "type": "Table"
+  }
+]

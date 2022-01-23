@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "FeeDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Quotes",
+    "type": "Table"
+  }
+]

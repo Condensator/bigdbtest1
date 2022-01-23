@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EmployeeJobPositionHistories",
+    "type": "Table"
+  }
+]

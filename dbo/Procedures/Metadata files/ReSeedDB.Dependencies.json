@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Mig_Constraints",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Mig_LWTables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Mig_MergeLogs",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LeaseSyndications",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceOtherCosts",
+    "type": "Table"
+  }
+]

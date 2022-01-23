@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "MasterConfigEntities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "MasterConfigs",
+    "type": "Table"
+  }
+]

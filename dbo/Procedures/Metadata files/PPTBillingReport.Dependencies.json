@@ -1,0 +1,57 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EntityResources",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PropertyTaxes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PropertyTaxReportCodeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoiceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

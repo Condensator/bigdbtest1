@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetMeterTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPIContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Locations",
+    "type": "Table"
+  }
+]

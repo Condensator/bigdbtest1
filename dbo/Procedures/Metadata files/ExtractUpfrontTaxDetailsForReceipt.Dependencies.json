@@ -1,0 +1,52 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ContractSalesTaxRemittanceResponsibilityHistories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinanceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseTaxAssessmentDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptReceivableDetails_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptUpfrontTaxDetails_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxBasisTypes",
+    "type": "Table"
+  }
+]

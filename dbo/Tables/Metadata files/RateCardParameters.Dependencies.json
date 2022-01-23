@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ProgramParameterConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RateCards",
+    "type": "Table"
+  }
+]

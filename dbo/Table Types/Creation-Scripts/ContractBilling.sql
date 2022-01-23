@@ -1,0 +1,28 @@
+CREATE TYPE [dbo].[ContractBilling] AS TABLE(
+	[InvoiceComment] [nvarchar](200) COLLATE Latin1_General_CI_AS NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[InvoiceCommentBeginDate] [date] NULL,
+	[InvoiceCommentEndDate] [date] NULL,
+	[InvoiceLeaddays] [int] NOT NULL,
+	[InvoiceTransitDays] [int] NOT NULL,
+	[IsPreACHNotification] [bit] NOT NULL,
+	[PreACHNotificationEmail] [nvarchar](1000) COLLATE Latin1_General_CI_AS NULL,
+	[IsPostACHNotification] [bit] NOT NULL,
+	[PostACHNotificationEmailTo] [nvarchar](1000) COLLATE Latin1_General_CI_AS NULL,
+	[IsReturnACHNotification] [bit] NOT NULL,
+	[ReturnACHNotificationEmailTo] [nvarchar](1000) COLLATE Latin1_General_CI_AS NULL,
+	[IsActive] [bit] NOT NULL,
+	[NotaryDate] [date] NULL,
+	[ActaNumber] [nvarchar](20) COLLATE Latin1_General_CI_AS NULL,
+	[PostACHNotificationEmailTemplateId] [bigint] NULL,
+	[PreACHNotificationEmailTemplateId] [bigint] NULL,
+	[ReturnACHNotificationEmailTemplateId] [bigint] NULL,
+	[ReceiptLegalEntityId] [bigint] NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

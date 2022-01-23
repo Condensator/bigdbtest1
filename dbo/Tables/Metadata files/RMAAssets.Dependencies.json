@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyAddresses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RMAProfiles",
+    "type": "Table"
+  }
+]

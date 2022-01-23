@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "RACRuleConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RACs",
+    "type": "Table"
+  }
+]

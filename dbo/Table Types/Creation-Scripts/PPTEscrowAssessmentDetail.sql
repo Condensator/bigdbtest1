@@ -1,0 +1,25 @@
+CREATE TYPE [dbo].[PPTEscrowAssessmentDetail] AS TABLE(
+	[TransactionType] [nvarchar](250) COLLATE Latin1_General_CI_AS NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[DRAmount_Amount] [decimal](16, 2) NULL,
+	[DRAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[CRAmount_Amount] [decimal](16, 2) NULL,
+	[CRAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[DRAccount] [nvarchar](250) COLLATE Latin1_General_CI_AS NULL,
+	[CRAccount] [nvarchar](250) COLLATE Latin1_General_CI_AS NULL,
+	[DRDescription] [nvarchar](250) COLLATE Latin1_General_CI_AS NULL,
+	[CRDescription] [nvarchar](250) COLLATE Latin1_General_CI_AS NULL,
+	[PostDate] [date] NULL,
+	[EscrowEndBalance_Amount] [decimal](16, 2) NULL,
+	[EscrowEndBalance_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[IsActive] [bit] NOT NULL,
+	[GLCreatedTime] [datetimeoffset](7) NULL,
+	[PPTEscrowAssessmentId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

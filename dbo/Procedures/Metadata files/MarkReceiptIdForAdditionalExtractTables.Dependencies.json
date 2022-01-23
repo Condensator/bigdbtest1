@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptLateFeeReversalDetails_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptOTPReceivables_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptReceivableDetails_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptRentSharingDetails_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receipts_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptUpfrontTaxDetails_Extract",
+    "type": "Table"
+  }
+]

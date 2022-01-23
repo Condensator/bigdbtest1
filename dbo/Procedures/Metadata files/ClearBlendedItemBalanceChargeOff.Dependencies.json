@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BlendedIncomeSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BlendedItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseBlendedItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanBlendedItems",
+    "type": "Table"
+  }
+]

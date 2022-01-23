@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoiceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  }
+]

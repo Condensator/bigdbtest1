@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ContractLateFees",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypes",
+    "type": "Table"
+  }
+]

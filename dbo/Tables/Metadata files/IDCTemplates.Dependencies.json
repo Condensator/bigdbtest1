@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BlendedItemCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLConfigurations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  }
+]

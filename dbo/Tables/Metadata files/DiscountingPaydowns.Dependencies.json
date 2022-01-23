@@ -1,0 +1,27 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DiscountingAmendments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingRepaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RemitToes",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CustomerLocationTaxBasisProcessingDetail_Extract",
+    "type": "Table"
+  }
+]

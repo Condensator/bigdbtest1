@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CustomerThirdPartyRelationships",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Proposals",
+    "type": "Table"
+  }
+]

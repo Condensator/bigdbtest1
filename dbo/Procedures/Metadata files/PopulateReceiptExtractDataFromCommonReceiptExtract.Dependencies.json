@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CashTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CommonExternalReceipt_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receipts_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptTypes",
+    "type": "Table"
+  }
+]

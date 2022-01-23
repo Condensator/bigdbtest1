@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CommonExternalReceipt_Extract",
+    "type": "Table"
+  }
+]

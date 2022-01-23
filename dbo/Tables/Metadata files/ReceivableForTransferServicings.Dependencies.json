@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceivableForTransfers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RemitToes",
+    "type": "Table"
+  }
+]

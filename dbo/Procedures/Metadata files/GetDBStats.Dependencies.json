@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "GetAllIndexDef",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "GetCompiledTimeoutQueries",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "Jobs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobStepInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobSteps",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobTaskConfigs",
+    "type": "Table"
+  }
+]

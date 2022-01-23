@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ServiceConfigs",
+    "type": "Table"
+  }
+]

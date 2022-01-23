@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Payables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RemitToes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Vendors",
+    "type": "Table"
+  }
+]

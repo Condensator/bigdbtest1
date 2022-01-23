@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "NonVertexAssetDetail_Extract",
+    "type": "Table"
+  }
+]

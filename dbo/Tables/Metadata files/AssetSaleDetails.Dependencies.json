@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetSales",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TerminationReasonConfigs",
+    "type": "Table"
+  }
+]

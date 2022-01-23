@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanPaydowns",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PreQuoteContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PreQuotes",
+    "type": "Table"
+  }
+]

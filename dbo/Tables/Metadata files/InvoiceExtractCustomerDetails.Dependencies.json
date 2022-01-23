@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BillToes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobStepInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Logoes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  }
+]

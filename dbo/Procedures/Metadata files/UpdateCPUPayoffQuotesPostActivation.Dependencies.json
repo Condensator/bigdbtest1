@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CPUPayoffs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUPayoffSchedules",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PreQuoteLoans",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PreQuotes",
+    "type": "Table"
+  }
+]

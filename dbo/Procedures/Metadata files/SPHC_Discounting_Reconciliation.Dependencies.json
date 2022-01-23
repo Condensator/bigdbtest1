@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Discountings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GlobalParameters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  }
+]

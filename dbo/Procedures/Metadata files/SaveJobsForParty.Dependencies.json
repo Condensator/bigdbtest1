@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "JobsForParties",
+    "type": "Table"
+  }
+]

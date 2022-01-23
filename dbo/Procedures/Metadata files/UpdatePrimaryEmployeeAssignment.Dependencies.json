@@ -1,0 +1,27 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ConvertCSVToBigIntTable",
+    "type": "TF"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmployeesAssignedToContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmployeesAssignedToCreditApplications",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmployeesAssignedToLOCs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmployeesAssignedToProposals",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxDepAmortizations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxDepConventions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxDepTemplateDetails",
+    "type": "Table"
+  }
+]

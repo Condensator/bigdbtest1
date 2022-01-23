@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "InvoiceJobErrorSummaries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobStepInstances",
+    "type": "Table"
+  }
+]

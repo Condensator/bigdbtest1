@@ -1,0 +1,27 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AcceleratedBalanceCredits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AcceleratedBalanceEstimatedPropertyTaxes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AcceleratedBalanceExpenses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AcceleratedBalanceInterestAccrualDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AcceleratedBalancePIHistories",
+    "type": "Table"
+  }
+]

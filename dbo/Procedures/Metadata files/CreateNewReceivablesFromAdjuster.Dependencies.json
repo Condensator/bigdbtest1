@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PropertyTaxes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SecurityDeposits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Sundries",
+    "type": "Table"
+  }
+]

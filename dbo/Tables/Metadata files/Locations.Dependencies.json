@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Customers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JurisdictionDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Jurisdictions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxExemptRules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Vendors",
+    "type": "Table"
+  }
+]

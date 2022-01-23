@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LoanFinanceAdditionalCharges",
+    "type": "Table"
+  }
+]

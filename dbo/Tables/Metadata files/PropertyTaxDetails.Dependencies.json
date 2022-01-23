@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BillToes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PropertyTaxes",
+    "type": "Table"
+  }
+]

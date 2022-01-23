@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "InterestRateDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinanceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseInterestRates",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetFloatRateIncomes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFloatRateIncomes",
+    "type": "Table"
+  }
+]

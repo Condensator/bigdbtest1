@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "MedicalSpecialities",
+    "type": "Table"
+  }
+]

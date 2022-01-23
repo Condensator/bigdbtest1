@@ -1,0 +1,97 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetFeatures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BillToes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BlendedItemCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CostTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLJournals",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Locations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "OtherCostCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceOtherCosts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RemitToes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Sundries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxCodeRates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Vendors",
+    "type": "Table"
+  }
+]

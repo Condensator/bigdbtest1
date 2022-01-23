@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "FinancialStatementParameters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

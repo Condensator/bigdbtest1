@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinanceDetails",
+    "type": "Table"
+  }
+]

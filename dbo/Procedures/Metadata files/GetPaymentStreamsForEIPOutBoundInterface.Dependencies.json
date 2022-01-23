@@ -1,0 +1,92 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BlendedIncomeSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BlendedItemCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BlendedItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BookDepreciations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DeferredTaxes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinanceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFundings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeasePaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeveragedLeaseAmorts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeveragedLeases",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFundings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanPaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Sundries",
+    "type": "Table"
+  }
+]

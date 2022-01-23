@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DisbursementRequestPayables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DisbursementRequestPaymentDetails",
+    "type": "Table"
+  }
+]

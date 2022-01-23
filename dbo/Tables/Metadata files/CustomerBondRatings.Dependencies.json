@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BondRatings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Customers",
+    "type": "Table"
+  }
+]

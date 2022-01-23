@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DriverHistories",
+    "type": "Table"
+  }
+]

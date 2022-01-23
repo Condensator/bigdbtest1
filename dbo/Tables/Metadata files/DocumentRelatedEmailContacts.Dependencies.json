@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentEmails",
+    "type": "Table"
+  }
+]

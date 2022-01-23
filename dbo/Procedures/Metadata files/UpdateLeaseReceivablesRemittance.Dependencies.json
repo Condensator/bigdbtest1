@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingServicingDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeasePaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TiedContractPaymentDetails",
+    "type": "Table"
+  }
+]

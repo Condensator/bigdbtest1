@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EventHandlerConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EventInstances",
+    "type": "Table"
+  }
+]

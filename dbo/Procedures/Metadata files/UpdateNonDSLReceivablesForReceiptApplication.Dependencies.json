@@ -1,0 +1,82 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanIncomeSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanPaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplicationReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplicationReceivableGroups",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplications",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receipts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetailsWithholdingTaxDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoiceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoiceReceiptDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableWithholdingTaxDetails",
+    "type": "Table"
+  }
+]

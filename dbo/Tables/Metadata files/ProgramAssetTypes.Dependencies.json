@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "FeeTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramDetails",
+    "type": "Table"
+  }
+]

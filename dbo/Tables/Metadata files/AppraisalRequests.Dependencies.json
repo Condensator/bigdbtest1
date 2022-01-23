@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BusinessUnits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Vendors",
+    "type": "Table"
+  }
+]

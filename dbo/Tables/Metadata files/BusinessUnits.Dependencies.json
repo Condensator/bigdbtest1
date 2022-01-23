@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BusinessCalendars",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TimeZones",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AdjustmentReasonConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Customers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RatingModelConfigs",
+    "type": "Table"
+  }
+]

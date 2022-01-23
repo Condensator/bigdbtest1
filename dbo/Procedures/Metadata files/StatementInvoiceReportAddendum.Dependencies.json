@@ -1,0 +1,57 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BillToes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BillToInvoiceParameters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceExtractCustomerDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceExtractReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceGroupingParameters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoiceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoiceStatementAssociations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypeLabelConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypeLanguageLabels",
+    "type": "Table"
+  }
+]

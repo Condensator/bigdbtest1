@@ -1,0 +1,26 @@
+CREATE TYPE [dbo].[GLJournalDetail] AS TABLE(
+	[EntityId] [bigint] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[EntityType] [nvarchar](23) COLLATE Latin1_General_CI_AS NOT NULL,
+	[Amount_Amount] [decimal](16, 2) NOT NULL,
+	[Amount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[IsDebit] [bit] NOT NULL,
+	[GLAccountNumber] [nvarchar](129) COLLATE Latin1_General_CI_AS NOT NULL,
+	[Description] [nvarchar](250) COLLATE Latin1_General_CI_AS NOT NULL,
+	[SourceId] [bigint] NULL,
+	[IsActive] [bit] NOT NULL,
+	[GLAccountId] [bigint] NOT NULL,
+	[GLTemplateDetailId] [bigint] NULL,
+	[MatchingGLTemplateDetailId] [bigint] NULL,
+	[LineofBusinessId] [bigint] NOT NULL,
+	[ExportJobId] [bigint] NULL,
+	[InstrumentTypeGLAccountId] [bigint] NULL,
+	[GLJournalId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DeferredTaxes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxDepAmortizationDetailForecasts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxDepAmortizationDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxDepAmortizationGLDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxDepAmortizationGLHeaders",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxDepAmortizations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxDepEntities",
+    "type": "Table"
+  }
+]

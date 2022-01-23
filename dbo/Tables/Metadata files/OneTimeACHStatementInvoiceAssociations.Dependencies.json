@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "OneTimeACHInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  }
+]

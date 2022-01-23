@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptNonCashTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetails",
+    "type": "Table"
+  }
+]

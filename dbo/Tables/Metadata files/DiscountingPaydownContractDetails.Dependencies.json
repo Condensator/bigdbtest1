@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DiscountingContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingPaydowns",
+    "type": "Table"
+  }
+]

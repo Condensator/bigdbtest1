@@ -1,0 +1,112 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BillToes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Customers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "FileStores",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GetContentGuid",
+    "type": "Function"
+  },
+  {
+    "schema": "dbo",
+    "name": "GetOCRCodes",
+    "type": "Function"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceFormats",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceTypeLabelConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntityAddresses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntityContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Logoes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyAddresses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoiceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RemitToes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

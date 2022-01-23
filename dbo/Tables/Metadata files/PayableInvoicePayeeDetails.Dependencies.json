@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PayableInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RemitToes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Vendors",
+    "type": "Table"
+  }
+]

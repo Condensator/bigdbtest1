@@ -1,0 +1,47 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetCategories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetClassCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BookDepreciationTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CapitalCostAllowanceClasses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CostTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PricingGroups",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Products",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxExemptRules",
+    "type": "Table"
+  }
+]

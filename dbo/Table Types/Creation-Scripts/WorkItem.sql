@@ -1,0 +1,27 @@
+CREATE TYPE [dbo].[WorkItem] AS TABLE(
+	[GUID] [uniqueidentifier] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[Status] [nvarchar](10) COLLATE Latin1_General_CI_AS NOT NULL,
+	[CreatedDate] [datetimeoffset](7) NOT NULL,
+	[StartDate] [datetimeoffset](7) NULL,
+	[EndDate] [datetimeoffset](7) NULL,
+	[DueDate] [datetimeoffset](7) NULL,
+	[Comment] [nvarchar](500) COLLATE Latin1_General_CI_AS NULL,
+	[CompletionComment] [nvarchar](500) COLLATE Latin1_General_CI_AS NULL,
+	[FollowupDate] [date] NULL,
+	[LateNotificationCount] [int] NOT NULL,
+	[ActionName] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[Duration] [bigint] NULL,
+	[IsOptional] [bit] NOT NULL,
+	[IsCanceledByUser] [bit] NOT NULL,
+	[WorkItemConfigId] [bigint] NOT NULL,
+	[TransactionInstanceId] [bigint] NULL,
+	[OwnerUserId] [bigint] NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

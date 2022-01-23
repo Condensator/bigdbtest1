@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUBaseStructures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUPaymentSchedules",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetSales",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxCodeRates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxTypes",
+    "type": "Table"
+  }
+]

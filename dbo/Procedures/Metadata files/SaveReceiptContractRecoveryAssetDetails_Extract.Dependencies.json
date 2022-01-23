@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptContractRecoveryAssetDetails_Extract",
+    "type": "Table"
+  }
+]

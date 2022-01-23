@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PlateTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

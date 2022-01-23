@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ChargeOffReasonCodeConfigs",
+    "type": "Table"
+  }
+]

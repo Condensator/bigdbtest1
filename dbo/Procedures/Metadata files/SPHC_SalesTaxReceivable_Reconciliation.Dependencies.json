@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ChargeOffs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLEntryItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GlobalParameters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplateDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableForTransfers",
+    "type": "Table"
+  }
+]

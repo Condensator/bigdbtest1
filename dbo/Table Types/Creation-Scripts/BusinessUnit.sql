@@ -1,0 +1,27 @@
+CREATE TYPE [dbo].[BusinessUnit] AS TABLE(
+	[Name] [nvarchar](40) COLLATE Latin1_General_CI_AS NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[CurrentBusinessDate] [date] NOT NULL,
+	[BusinessStartTimeInHours] [int] NOT NULL,
+	[BusinessEndTimeInHours] [int] NOT NULL,
+	[BusinessStartTimeInMinutes] [int] NOT NULL,
+	[BusinessEndTimeInMinutes] [int] NOT NULL,
+	[ImplementCutoffTime] [bit] NOT NULL,
+	[CutoffTimeInHours] [int] NULL,
+	[CutoffTimeInMinutes] [int] NULL,
+	[CutoffTimeThresholdInMins] [int] NOT NULL,
+	[LatestNotifiedTime] [datetimeoffset](7) NULL,
+	[LatestLoggedOutTime] [datetimeoffset](7) NULL,
+	[IsActive] [bit] NOT NULL,
+	[IsDefault] [bit] NOT NULL,
+	[BusinessCalendarId] [bigint] NOT NULL,
+	[StandardTimeZoneId] [bigint] NOT NULL,
+	[PortfolioId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

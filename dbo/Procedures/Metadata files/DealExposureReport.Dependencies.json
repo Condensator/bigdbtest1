@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfiles",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DealExposures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeveragedLeases",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CostTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyAddresses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceOtherCosts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

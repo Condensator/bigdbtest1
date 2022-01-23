@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditApplicationNotifications",
+    "type": "Table"
+  }
+]

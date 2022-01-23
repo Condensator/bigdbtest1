@@ -1,0 +1,25 @@
+CREATE TYPE [dbo].[RecurringACHPaymentRequest] AS TABLE(
+	[EmailId] [nvarchar](70) COLLATE Latin1_General_CI_AS NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[PaymentType] [nvarchar](14) COLLATE Latin1_General_CI_AS NOT NULL,
+	[RecurringPaymentMethod] [nvarchar](23) COLLATE Latin1_General_CI_AS NOT NULL,
+	[DayoftheMonth] [int] NULL,
+	[StartDate] [date] NOT NULL,
+	[IsEndPaymentOnMaturity] [bit] NOT NULL,
+	[EndDate] [date] NULL,
+	[PaymentThreshold] [bit] NOT NULL,
+	[PaymentThresholdAmount_Amount] [decimal](16, 2) NOT NULL,
+	[PaymentThresholdAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[AllReceivableTypes] [bit] NOT NULL,
+	[IsActive] [bit] NOT NULL,
+	[ContractId] [bigint] NULL,
+	[BankAccountId] [bigint] NOT NULL,
+	[CustomerId] [bigint] NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

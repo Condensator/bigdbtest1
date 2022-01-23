@@ -1,0 +1,137 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AppraisalRequests",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assumptions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CollateralTrackings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CollectionWorkLists",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CommentHeaders",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CommentLists",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CommentResponses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Comments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CommentTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditApplications",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfiles",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Customers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EntityConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EntityHeaders",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Funders",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAmendments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanAmendments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Opportunities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Proposals",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Vendors",
+    "type": "Table"
+  }
+]

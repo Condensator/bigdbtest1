@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "InvoiceReceivableDetails_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetailsWithholdingTaxDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableWithholdingTaxDetails",
+    "type": "Table"
+  }
+]

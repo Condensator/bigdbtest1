@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CPUAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUBaseStructures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUSchedules",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LoanPaydownPricingCalculationParameters",
+    "type": "Table"
+  }
+]

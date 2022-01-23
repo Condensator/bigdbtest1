@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "OFACRequests",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  }
+]

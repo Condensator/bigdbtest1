@@ -1,0 +1,112 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AgencyLegalPlacementContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AgencyLegalPlacements",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetValueHistories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetValueHistoryDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BlendedItemDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BlendedItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreateRecentTransactions",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeasePaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanPaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptAllocations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplicationDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplicationReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplications",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptBatchDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Sundries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WriteDowns",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditApprovedStructures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditDecisions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanIncomeSchedules",
+    "type": "Table"
+  }
+]

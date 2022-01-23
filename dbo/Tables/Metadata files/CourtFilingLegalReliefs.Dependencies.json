@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CourtFilings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalReliefs",
+    "type": "Table"
+  }
+]

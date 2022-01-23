@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "SystemConfigFiles",
+    "type": "Table"
+  }
+]

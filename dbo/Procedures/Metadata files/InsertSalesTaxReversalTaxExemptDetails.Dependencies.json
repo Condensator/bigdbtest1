@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Locations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodeTaxExemptRules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalLocationDetail_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalReceivableDetail_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalTaxExemptDetail_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxExemptRules",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "InsuranceAgencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InsuranceCompanies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramAssetTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Quotes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RegionConfigs",
+    "type": "Table"
+  }
+]

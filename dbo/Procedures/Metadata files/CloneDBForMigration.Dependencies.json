@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AlterColumnStructure",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "GetConstraints",
+    "type": "Function"
+  },
+  {
+    "schema": "dbo",
+    "name": "Mig_Constraints",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Mig_LWTables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Mig_StagingTableLists",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Mig_TablesRowCounts",
+    "type": "Table"
+  }
+]

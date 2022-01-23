@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentUploads",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CollectionQueues",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CollectionsJobExtracts",
+    "type": "Table"
+  }
+]

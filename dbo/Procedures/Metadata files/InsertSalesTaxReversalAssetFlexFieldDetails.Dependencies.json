@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReversalReceivableDetail_Extract",
+    "type": "Table"
+  }
+]

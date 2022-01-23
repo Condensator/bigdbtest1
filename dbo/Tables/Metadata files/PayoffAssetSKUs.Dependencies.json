@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LeaseAssetSKUs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayoffAssets",
+    "type": "Table"
+  }
+]

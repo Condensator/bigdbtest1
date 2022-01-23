@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DiscountingReAccruals",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Discountings",
+    "type": "Table"
+  }
+]

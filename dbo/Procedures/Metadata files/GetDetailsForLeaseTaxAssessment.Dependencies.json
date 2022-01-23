@@ -1,0 +1,52 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetLocations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CustomerLocations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DealProductTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DealTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLOrgStructureConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Locations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

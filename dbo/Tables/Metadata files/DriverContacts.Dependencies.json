@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CIPDocumentSourceConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DriverAddresses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Drivers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyContacts",
+    "type": "Table"
+  }
+]

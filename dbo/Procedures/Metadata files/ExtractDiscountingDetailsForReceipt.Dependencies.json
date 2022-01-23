@@ -1,0 +1,47 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Discountings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinanceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptDiscountingContracts_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptDiscountingRepaymentSchedules_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptReceivableDetails_Extract",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PayableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayOffTemplateTerminationTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TerminationTypeParameterConfigs",
+    "type": "Table"
+  }
+]

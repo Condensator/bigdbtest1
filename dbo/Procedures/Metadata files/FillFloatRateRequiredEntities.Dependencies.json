@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LeasePaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "NonAccrualContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "NonAccruals",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReAccrualContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReAccruals",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  }
+]

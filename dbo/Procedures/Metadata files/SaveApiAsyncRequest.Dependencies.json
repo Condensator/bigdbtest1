@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ApiAsyncRequests",
+    "type": "Table"
+  }
+]

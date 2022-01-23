@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ExceptionLog",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "GetNextSqlSequence",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  }
+]

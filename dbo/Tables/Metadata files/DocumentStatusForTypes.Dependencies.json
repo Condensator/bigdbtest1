@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentStatusConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UserSelectionParams",
+    "type": "Table"
+  }
+]

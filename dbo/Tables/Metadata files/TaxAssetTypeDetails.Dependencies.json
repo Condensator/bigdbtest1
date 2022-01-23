@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxAssetTypes",
+    "type": "Table"
+  }
+]

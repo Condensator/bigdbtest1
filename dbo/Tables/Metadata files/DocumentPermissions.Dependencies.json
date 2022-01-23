@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentTypePermissions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

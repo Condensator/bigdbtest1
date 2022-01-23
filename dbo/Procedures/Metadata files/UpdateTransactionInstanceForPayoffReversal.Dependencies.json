@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LeaseInsuranceRequirements",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TransactionInstances",
+    "type": "Table"
+  }
+]

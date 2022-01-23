@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LocationTaxAreaHistories",
+    "type": "Table"
+  }
+]

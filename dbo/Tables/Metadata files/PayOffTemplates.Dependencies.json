@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PayoffTradeUpFees",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodes",
+    "type": "Table"
+  }
+]

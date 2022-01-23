@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPIOverageTiers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPIReceivables",
+    "type": "Table"
+  }
+]

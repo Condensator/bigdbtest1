@@ -1,0 +1,27 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ActivityEntityConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ActivityTransactionConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UserGroups",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,28 @@
+CREATE TYPE [dbo].[LeaseFloatRateIncome] AS TABLE(
+	[IncomeDate] [date] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[CustomerIncomeAmount_Amount] [decimal](16, 2) NOT NULL,
+	[CustomerIncomeAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[CustomerIncomeAccruedAmount_Amount] [decimal](16, 2) NOT NULL,
+	[CustomerIncomeAccruedAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[CustomerReceivableAmount_Amount] [decimal](16, 2) NOT NULL,
+	[CustomerReceivableAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[IsGLPosted] [bit] NOT NULL,
+	[IsAccounting] [bit] NOT NULL,
+	[IsScheduled] [bit] NOT NULL,
+	[IsNonAccrual] [bit] NOT NULL,
+	[ModificationType] [nvarchar](31) COLLATE Latin1_General_CI_AS NOT NULL,
+	[ModificationId] [bigint] NOT NULL,
+	[AdjustmentEntry] [bit] NOT NULL,
+	[IsLessorOwned] [bit] NOT NULL,
+	[InterestRate] [decimal](10, 8) NOT NULL,
+	[FloatRateIndexDetailId] [bigint] NULL,
+	[LeaseFinanceId] [bigint] NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

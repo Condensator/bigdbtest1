@@ -1,0 +1,28 @@
+CREATE TYPE [dbo].[MaturityMonitorFMVAssetDetail] AS TABLE(
+	[IsNegotiable] [bit] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[GeneralDescription] [nvarchar](500) COLLATE Latin1_General_CI_AS NULL,
+	[OriginalCost_Amount] [decimal](16, 2) NOT NULL,
+	[OriginalCost_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[Residual_Amount] [decimal](16, 2) NULL,
+	[Residual_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[FMVMaturity_Amount] [decimal](16, 2) NULL,
+	[FMVMaturity_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[FMVMDate] [date] NULL,
+	[OLVPresent_Amount] [decimal](16, 2) NULL,
+	[OLVPresent_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[OLVPresentDate] [date] NULL,
+	[PurchasePrice_Amount] [decimal](16, 2) NULL,
+	[PurchasePrice_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[PurchasePriceDate] [date] NULL,
+	[IsActive] [bit] NOT NULL,
+	[AssetId] [bigint] NOT NULL,
+	[MaturityMonitorId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

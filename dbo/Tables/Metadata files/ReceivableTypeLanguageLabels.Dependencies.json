@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LanguageConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypeLabelConfigs",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EventHandlerConfigs",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReversalAssetLocationDetail_Extract",
+    "type": "Table"
+  }
+]

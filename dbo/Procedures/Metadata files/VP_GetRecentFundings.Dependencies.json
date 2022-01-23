@@ -1,0 +1,102 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BlendedItemDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BlendedItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DisbursementRequestPayables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DisbursementRequestPayees",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DisbursementRequestPaymentDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DisbursementRequests",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Payables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PaymentVoucherDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PaymentVouchers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Sundries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SundryRecurringPaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SundryRecurrings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TreasuryPayableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TreasuryPayables",
+    "type": "Table"
+  }
+]

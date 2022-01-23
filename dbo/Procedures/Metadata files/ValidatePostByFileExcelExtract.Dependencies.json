@@ -1,0 +1,27 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CurrencyCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptBatches",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptPostByFileExcel_Extract",
+    "type": "Table"
+  }
+]

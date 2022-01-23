@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BranchContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  }
+]

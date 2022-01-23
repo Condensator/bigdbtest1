@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ProgramPromotions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Vendors",
+    "type": "Table"
+  }
+]

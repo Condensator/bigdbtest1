@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PayoffPricingOptions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayOffTemplateTerminationTypeParameters",
+    "type": "Table"
+  }
+]

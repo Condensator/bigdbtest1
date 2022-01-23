@@ -1,0 +1,52 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ActivityForCollectionWorkLists",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CollectionWorkListContractDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CollectionWorkLists",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PaymentPromises",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoiceDeliquencyDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoiceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypes",
+    "type": "Table"
+  }
+]

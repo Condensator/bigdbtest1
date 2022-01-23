@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplicationReceivableDetails_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoiceDetails",
+    "type": "Table"
+  }
+]

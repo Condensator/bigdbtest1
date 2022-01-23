@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PreQuoteContractDelinquencySummaries",
+    "type": "Table"
+  }
+]

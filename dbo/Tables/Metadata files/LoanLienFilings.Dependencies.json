@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LienFilings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  }
+]

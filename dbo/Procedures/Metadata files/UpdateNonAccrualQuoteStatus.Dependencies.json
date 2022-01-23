@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "NonAccrualContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "NonAccruals",
+    "type": "Table"
+  }
+]

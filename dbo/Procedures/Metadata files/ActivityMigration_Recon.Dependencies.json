@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Activities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ActivityForCustomers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ActivityTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  }
+]

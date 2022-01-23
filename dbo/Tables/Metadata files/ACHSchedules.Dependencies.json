@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BankAccounts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ContractBankAccountPaymentThresholds",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ContractBillings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  }
+]

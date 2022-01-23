@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "GLAccounts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLSegmentTypes",
+    "type": "Table"
+  }
+]

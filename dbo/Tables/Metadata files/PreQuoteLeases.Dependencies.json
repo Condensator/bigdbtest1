@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Payoffs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PreQuoteContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PreQuotes",
+    "type": "Table"
+  }
+]

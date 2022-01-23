@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AdditionalCharges",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Sundries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SundryRecurrings",
+    "type": "Table"
+  }
+]

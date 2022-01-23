@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assumptions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeasePaymentSchedules",
+    "type": "Table"
+  }
+]

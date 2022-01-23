@@ -1,0 +1,87 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetMeters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetMeterTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetSerialNumbers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BusinessUnits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUAssetMeterReadingHeaders",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUAssetMeterReadings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUBaseStructures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUOverageStructures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EnmasseMeterReadingInputs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EnmasseMeterReadingInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EnmasseMeterReadingLogs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntities",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "GLManualJournalEntries",
+    "type": "Table"
+  }
+]

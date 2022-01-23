@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DisbursementRequestPaymentDetails",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ChargeOffAssetDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ChargeOffs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptContractRecoveryAssetDetails_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptContractRecoveryDetails_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptReceivableDetails_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WriteDownAssetDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WriteDowns",
+    "type": "Table"
+  }
+]

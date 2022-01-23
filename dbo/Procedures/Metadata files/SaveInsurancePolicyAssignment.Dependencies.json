@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "InsurancePolicyAssignments",
+    "type": "Table"
+  }
+]

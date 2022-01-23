@@ -1,0 +1,122 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetCatalogs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetCategories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetClass2",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetFeatureSets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetUsages",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditApplicationEquipmentDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Customers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Makes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Manufacturers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Models",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PricingGroups",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Products",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PropertyTaxReportCodeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SaleLeasebackCodeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SalesTaxExemptionLevelConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxExemptRules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TitleTransferCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "VendorAssetCategoryConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Vendors",
+    "type": "Table"
+  }
+]

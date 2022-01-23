@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CPUTransactions",
+    "type": "Table"
+  }
+]

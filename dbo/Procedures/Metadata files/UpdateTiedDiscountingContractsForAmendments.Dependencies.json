@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ConvertCSVToBigIntTable",
+    "type": "TF"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingFinances",
+    "type": "Table"
+  }
+]

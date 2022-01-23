@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assumptions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CollectionWorkListContractDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CollectionWorkLists",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ContractAssumptionHistories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

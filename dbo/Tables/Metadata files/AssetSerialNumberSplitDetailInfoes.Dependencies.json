@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetSerialNumbers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetSplitDetailInfoes",
+    "type": "Table"
+  }
+]

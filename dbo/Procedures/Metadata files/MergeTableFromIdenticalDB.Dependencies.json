@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Mig_MergeLogs",
+    "type": "Table"
+  }
+]

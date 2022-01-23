@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BulkUploadProfiles",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobInstances",
+    "type": "Table"
+  }
+]

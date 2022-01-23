@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxTypes",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BankAccountCategories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BankBranches",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplates",
+    "type": "Table"
+  }
+]

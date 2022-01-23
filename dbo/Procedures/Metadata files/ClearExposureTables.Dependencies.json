@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CustomerExposures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DealExposures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SyndicatedDealExposures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "VendorExposures",
+    "type": "Table"
+  }
+]

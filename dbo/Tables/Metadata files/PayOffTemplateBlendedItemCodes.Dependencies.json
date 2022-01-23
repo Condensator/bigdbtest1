@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BlendedItemCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayOffTemplateTerminationTypeParameters",
+    "type": "Table"
+  }
+]

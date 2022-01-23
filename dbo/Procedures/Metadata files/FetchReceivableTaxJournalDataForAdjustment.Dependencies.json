@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceivableTaxes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTaxGLs",
+    "type": "Table"
+  }
+]

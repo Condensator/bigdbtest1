@@ -1,0 +1,18 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[AssetSplitTemp](
+	[NewId] [bigint] NULL,
+	[OldId] [bigint] NULL,
+	[Prorate] [decimal](18, 10) NULL,
+	[IsLast] [bit] NULL,
+	[JobInstanceId] [bigint] NOT NULL,
+	[PrimaryId] [bigint] IDENTITY(1,1) NOT NULL,
+ CONSTRAINT [PK_AssetSplitTemp] PRIMARY KEY CLUSTERED 
+(
+	[PrimaryId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF)
+)
+
+GO

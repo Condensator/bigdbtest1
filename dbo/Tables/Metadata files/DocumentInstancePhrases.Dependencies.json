@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentPhrases",
+    "type": "Table"
+  }
+]

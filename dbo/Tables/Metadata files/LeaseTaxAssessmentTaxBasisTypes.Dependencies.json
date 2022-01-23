@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LeaseTaxAssessmentDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxBasisTypes",
+    "type": "Table"
+  }
+]

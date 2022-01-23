@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentAttachments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentPacks",
+    "type": "Table"
+  }
+]

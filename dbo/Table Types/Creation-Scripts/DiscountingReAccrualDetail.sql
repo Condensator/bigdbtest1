@@ -1,0 +1,25 @@
+CREATE TYPE [dbo].[DiscountingReAccrualDetail] AS TABLE(
+	[ReAccrualDate] [date] NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[IsActive] [bit] NOT NULL,
+	[NBV_Amount] [decimal](16, 2) NOT NULL,
+	[NBV_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[NBVPostAdjustments_Amount] [decimal](16, 2) NOT NULL,
+	[NBVPostAdjustments_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[TotalOutstandingPayment_Amount] [decimal](16, 2) NOT NULL,
+	[TotalOutstandingPayment_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[LastPaymentDate] [date] NULL,
+	[SuspendedExpense_Amount] [decimal](16, 2) NOT NULL,
+	[SuspendedExpense_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[NonAccrualDate] [date] NULL,
+	[LastExpenseUpdateDate] [date] NULL,
+	[DiscountingId] [bigint] NOT NULL,
+	[DiscountingReAccrualId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Locations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LocationTaxAreaHistories",
+    "type": "Table"
+  }
+]

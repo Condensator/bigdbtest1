@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Branches",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

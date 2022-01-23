@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramAssetTypeEOTOptions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramAssetTypeFrequencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramAssetTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramAssetTypeTerms",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramPromotions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "QuoteRequests",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CPUAssetMeterReadings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUSchedules",
+    "type": "Table"
+  }
+]

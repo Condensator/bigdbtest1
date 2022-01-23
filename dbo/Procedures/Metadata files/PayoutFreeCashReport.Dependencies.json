@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PlanBasesPayouts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PlanPayoutOptionVolumeTiers",
+    "type": "Table"
+  }
+]

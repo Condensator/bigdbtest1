@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptPostByFileExcel_Extract",
+    "type": "Table"
+  }
+]

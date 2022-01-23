@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "OneTimeACHReceivableDetails",
+    "type": "Table"
+  }
+]

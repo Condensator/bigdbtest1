@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "VATReceivableDetail_Extract",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LoanPaydowns",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanPaydownSundries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Sundries",
+    "type": "Table"
+  }
+]

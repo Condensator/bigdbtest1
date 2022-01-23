@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ProgramRateCardParameters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramRateCards",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RateCardParameters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RateCards",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PropertyTaxReportCodeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

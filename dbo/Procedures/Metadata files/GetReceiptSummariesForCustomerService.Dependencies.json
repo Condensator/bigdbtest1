@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ConvertCSVToBigIntTable",
+    "type": "TF"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmployeesAssignedToContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmployeesAssignedToParties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  }
+]

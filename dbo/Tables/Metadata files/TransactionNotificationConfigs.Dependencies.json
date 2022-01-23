@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "NotificationConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TransactionConfigs",
+    "type": "Table"
+  }
+]

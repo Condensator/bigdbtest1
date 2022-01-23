@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLJournals",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanPaydowns",
+    "type": "Table"
+  }
+]

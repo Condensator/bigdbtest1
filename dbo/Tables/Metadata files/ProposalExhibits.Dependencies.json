@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditProfiles",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DealProductTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DealTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "FloatRateIndexes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramIndicatorConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Proposals",
+    "type": "Table"
+  }
+]

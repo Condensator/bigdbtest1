@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetFMVMatrices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetTypes",
+    "type": "Table"
+  }
+]

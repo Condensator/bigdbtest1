@@ -1,0 +1,27 @@
+CREATE TYPE [dbo].[PropertyTaxStateSettings] AS TABLE(
+	[UniqueIdentifier] [bigint] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[IsExempt] [bit] NOT NULL,
+	[AssessmentMonth] [nvarchar](9) COLLATE Latin1_General_CI_AS NULL,
+	[AssessmentDay] [int] NULL,
+	[LeadDays] [int] NULL,
+	[FilingDueMonth] [nvarchar](9) COLLATE Latin1_General_CI_AS NULL,
+	[FilingDueDay] [int] NULL,
+	[IsSalesTaxOnPropertyTax] [bit] NOT NULL,
+	[IsReportCSAs] [bit] NOT NULL,
+	[IsReportInventory] [bit] NOT NULL,
+	[EffectiveFromDate] [date] NOT NULL,
+	[EffectiveToDate] [date] NOT NULL,
+	[IsActive] [bit] NOT NULL,
+	[Comment] [nvarchar](200) COLLATE Latin1_General_CI_AS NULL,
+	[StateId] [bigint] NOT NULL,
+	[PortfolioId] [bigint] NOT NULL,
+	[PropertyTaxParameterId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

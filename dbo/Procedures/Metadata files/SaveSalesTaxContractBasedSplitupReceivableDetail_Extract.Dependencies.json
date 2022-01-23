@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "SalesTaxContractBasedSplitupReceivableDetail_Extract",
+    "type": "Table"
+  }
+]

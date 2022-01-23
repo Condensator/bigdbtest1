@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptPostByFileExcel_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receipts_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptStatmentInvoiceAssociations_Extract",
+    "type": "Table"
+  }
+]

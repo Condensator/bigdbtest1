@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "FloatRateIndexDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  }
+]

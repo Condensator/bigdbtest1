@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "OutgoingMessageInstances",
+    "type": "Table"
+  }
+]

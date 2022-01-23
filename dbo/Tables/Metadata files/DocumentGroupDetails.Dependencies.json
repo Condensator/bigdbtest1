@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentGroups",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentTypes",
+    "type": "Table"
+  }
+]

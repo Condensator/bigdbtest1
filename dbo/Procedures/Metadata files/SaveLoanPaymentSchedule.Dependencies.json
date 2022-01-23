@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LoanPaymentSchedules",
+    "type": "Table"
+  }
+]

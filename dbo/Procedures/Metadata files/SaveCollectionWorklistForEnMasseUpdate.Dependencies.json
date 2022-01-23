@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CollectionWorkListContractDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CollectionWorkLists",
+    "type": "Table"
+  }
+]

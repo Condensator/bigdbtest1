@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ContractFloatRates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  }
+]

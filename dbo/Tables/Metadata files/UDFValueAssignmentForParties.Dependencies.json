@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UDFLabelForPartyDetails",
+    "type": "Table"
+  }
+]

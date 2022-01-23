@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EmployeesAssignedToParties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RoleFunctions",
+    "type": "Table"
+  }
+]

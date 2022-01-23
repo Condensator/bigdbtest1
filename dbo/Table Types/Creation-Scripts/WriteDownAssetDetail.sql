@@ -1,0 +1,27 @@
+CREATE TYPE [dbo].[WriteDownAssetDetail] AS TABLE(
+	[WriteDownAmount_Amount] [decimal](16, 2) NOT NULL,
+	[WriteDownAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[IsActive] [bit] NOT NULL,
+	[NetInvestmentWithBlended_Amount] [decimal](16, 2) NOT NULL,
+	[NetInvestmentWithBlended_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[NetInvestmentWithReserve_Amount] [decimal](16, 2) NOT NULL,
+	[NetInvestmentWithReserve_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[GrossWritedown_Amount] [decimal](16, 2) NOT NULL,
+	[GrossWritedown_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[NetWritedown_Amount] [decimal](16, 2) NOT NULL,
+	[NetWritedown_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[LeaseComponentWriteDownAmount_Amount] [decimal](16, 2) NOT NULL,
+	[LeaseComponentWriteDownAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[NonLeaseComponentWriteDownAmount_Amount] [decimal](16, 2) NOT NULL,
+	[NonLeaseComponentWriteDownAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[AssetId] [bigint] NOT NULL,
+	[WriteDownId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditDecisions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfiles",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Opportunities",
+    "type": "Table"
+  }
+]

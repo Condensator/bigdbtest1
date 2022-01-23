@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptPostByLockBox_Extract",
+    "type": "Table"
+  }
+]

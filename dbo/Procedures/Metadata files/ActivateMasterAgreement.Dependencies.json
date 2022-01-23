@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "MasterAgreements",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TransactionInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItems",
+    "type": "Table"
+  }
+]

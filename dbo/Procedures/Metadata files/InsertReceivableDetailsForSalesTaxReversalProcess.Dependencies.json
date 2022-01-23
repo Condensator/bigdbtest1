@@ -1,0 +1,62 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetailsForReversalProcess_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTaxDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTaxImpositions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalAssetLocationDetail_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalContractDetail_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalCustomerDetail_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalFlexFieldDetail_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalLocationDetail_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalReceivableDetail_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalReceivableSKUDetail_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalTaxExemptDetail_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "VertexBilledRentalReceivables",
+    "type": "Table"
+  }
+]

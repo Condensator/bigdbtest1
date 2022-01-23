@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BlendedIncomeSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BlendedItemDetails",
+    "type": "Table"
+  }
+]

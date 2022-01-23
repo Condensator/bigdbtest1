@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "GLAccounts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLJournalDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLManualJournalEntries",
+    "type": "Table"
+  }
+]

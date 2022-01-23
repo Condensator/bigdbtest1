@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptRentSharingDetails_Extract",
+    "type": "Table"
+  }
+]

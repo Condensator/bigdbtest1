@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BlendedItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLJournals",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Payoffs",
+    "type": "Table"
+  }
+]

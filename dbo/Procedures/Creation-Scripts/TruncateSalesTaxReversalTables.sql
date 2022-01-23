@@ -1,0 +1,18 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[TruncateSalesTaxReversalTables]
+AS
+BEGIN
+TRUNCATE TABLE ReversalReceivableDetail_Extract
+TRUNCATE TABLE ReversalContractDetail_Extract
+TRUNCATE TABLE ReversalCustomerDetail_Extract
+TRUNCATE TABLE ReversalLocationDetail_Extract
+TRUNCATE TABLE ReversalAssetLocationDetail_Extract
+TRUNCATE TABLE ReversalFlexFieldDetail_Extract
+TRUNCATE TABLE ReversalTaxExemptDetail_Extract
+TRUNCATE TABLE ReceivableDetailsForReversalProcess_Extract
+END
+
+GO

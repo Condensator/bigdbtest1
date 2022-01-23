@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EmployeeEnMasseUpdates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmployeesAssignedToParties",
+    "type": "Table"
+  }
+]

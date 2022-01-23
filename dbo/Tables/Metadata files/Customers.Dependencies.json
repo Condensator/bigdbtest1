@@ -1,0 +1,112 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BondRatings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BusinessTypeNAICSCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BusinessTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BusinessTypesSICsCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CIPDocumentSourceConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CollectionStatus",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditBureauConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CustomerApprovedExchangesConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CustomerApprovedRegulatorsConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CustomerClasses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmailTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LateFeeTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalFormationTypeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalStatusConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "MedicalSpecialities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptHierarchyTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxExemptRules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Vendors",
+    "type": "Table"
+  }
+]

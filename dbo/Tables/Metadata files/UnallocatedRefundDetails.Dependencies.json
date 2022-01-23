@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptAllocations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UnallocatedRefunds",
+    "type": "Table"
+  }
+]

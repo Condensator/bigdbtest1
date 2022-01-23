@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CollectionWorkLists",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TransactionInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItemAssignments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItems",
+    "type": "Table"
+  }
+]

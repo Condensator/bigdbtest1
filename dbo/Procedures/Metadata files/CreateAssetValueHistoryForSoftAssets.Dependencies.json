@@ -1,0 +1,52 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetHistories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetLocations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetValueHistories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAmendments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAssetSKUs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinanceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SKUValueProportions",
+    "type": "Table"
+  }
+]

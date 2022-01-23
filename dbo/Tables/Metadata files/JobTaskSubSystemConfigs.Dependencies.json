@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "JobTaskConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SubSystemConfigs",
+    "type": "Table"
+  }
+]

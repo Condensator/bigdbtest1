@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ConsentConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ConsentDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Consents",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyConsentDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyContactConsentDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyContacts",
+    "type": "Table"
+  }
+]

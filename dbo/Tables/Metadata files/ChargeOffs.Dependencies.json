@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ChargeOffReasonCodeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receipts",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,16 @@
+CREATE TYPE [dbo].[EntityConfig] AS TABLE(
+	[Name] [nvarchar](100) COLLATE Latin1_General_CI_AS NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[UserFriendlyName] [nvarchar](100) COLLATE Latin1_General_CI_AS NOT NULL,
+	[NaturalIdProperty] [nvarchar](100) COLLATE Latin1_General_CI_AS NOT NULL,
+	[EntitySummaryExpression] [nvarchar](1000) COLLATE Latin1_General_CI_AS NULL,
+	[TransactionForOcr] [nvarchar](100) COLLATE Latin1_General_CI_AS NULL,
+	[AllowBulkUpdate] [bit] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

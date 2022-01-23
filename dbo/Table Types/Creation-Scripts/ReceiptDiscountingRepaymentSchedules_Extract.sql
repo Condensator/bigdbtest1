@@ -1,0 +1,27 @@
+CREATE TYPE [dbo].[ReceiptDiscountingRepaymentSchedules_Extract] AS TABLE(
+	[ContractId] [bigint] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[DiscountingId] [bigint] NOT NULL,
+	[DiscountingFinanceId] [bigint] NOT NULL,
+	[RepaymentScheduleId] [bigint] NOT NULL,
+	[StartDate] [date] NULL,
+	[EndDate] [date] NULL,
+	[DueDate] [date] NULL,
+	[Principal] [decimal](16, 2) NULL,
+	[Interest] [decimal](16, 2) NULL,
+	[PrincipalProcessed] [decimal](16, 2) NULL,
+	[InterestProcessed] [decimal](16, 2) NULL,
+	[TiedContractPaymentDetailId] [bigint] NULL,
+	[PaymentScheduleId] [bigint] NULL,
+	[SharedAmount] [decimal](16, 2) NULL,
+	[Balance] [decimal](16, 2) NULL,
+	[TiedPaymentAmountUtilized] [decimal](16, 2) NULL,
+	[JobStepInstanceId] [bigint] NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

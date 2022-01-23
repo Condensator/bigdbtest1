@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DRRejectionReasonConfigs",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BusinessTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LineofBusinesses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Programs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "VendorCategoryConfigs",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentGroups",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TransactionConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItemConfigs",
+    "type": "Table"
+  }
+]

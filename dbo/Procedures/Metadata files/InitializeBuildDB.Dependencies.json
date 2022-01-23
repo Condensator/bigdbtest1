@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreateSynonymForTables",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "DeployLwCLRAssembly",
+    "type": "Procedure"
+  }
+]

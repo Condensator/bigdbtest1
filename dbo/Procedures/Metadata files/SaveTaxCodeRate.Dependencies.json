@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "TaxCodeRates",
+    "type": "Table"
+  }
+]

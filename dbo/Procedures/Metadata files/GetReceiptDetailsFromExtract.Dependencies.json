@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptAllocations_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptLateFeeReversalDetails_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receipts_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptStatmentInvoiceAssociations_Extract",
+    "type": "Table"
+  }
+]

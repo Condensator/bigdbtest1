@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Attachments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentAttachments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentPackAttachments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ESignEnvelopes",
+    "type": "Table"
+  }
+]

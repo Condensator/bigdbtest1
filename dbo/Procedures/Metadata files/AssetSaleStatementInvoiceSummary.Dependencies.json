@@ -1,0 +1,52 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetSales",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BillToes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "FileStores",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GetContentGuid",
+    "type": "Function"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntityAddresses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntityContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Logoes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyAddresses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RemitToes",
+    "type": "Table"
+  }
+]

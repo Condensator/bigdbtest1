@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DiscountingFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Discountings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLJournals",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplates",
+    "type": "Table"
+  }
+]

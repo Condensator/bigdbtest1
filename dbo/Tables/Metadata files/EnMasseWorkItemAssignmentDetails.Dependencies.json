@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EnMasseWorkItemAssignments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItems",
+    "type": "Table"
+  }
+]

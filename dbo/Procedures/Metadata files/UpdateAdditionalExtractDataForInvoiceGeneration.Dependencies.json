@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ACHSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetLocations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CurrencyCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceReceivableDetails_Extract",
+    "type": "Table"
+  }
+]

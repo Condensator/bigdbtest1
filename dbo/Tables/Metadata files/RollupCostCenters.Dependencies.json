@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "GLEntryItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InstrumentTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntities",
+    "type": "Table"
+  }
+]

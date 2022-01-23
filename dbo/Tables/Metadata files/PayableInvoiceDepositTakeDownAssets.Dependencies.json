@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceDepositAssets",
+    "type": "Table"
+  }
+]

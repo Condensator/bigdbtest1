@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ActivityStatusForTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ActivityTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TransactionConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItemActionConfigs",
+    "type": "Table"
+  }
+]

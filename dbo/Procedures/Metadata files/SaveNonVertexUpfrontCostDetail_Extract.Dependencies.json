@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "NonVertexUpfrontCostDetail_Extract",
+    "type": "Table"
+  }
+]

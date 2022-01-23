@@ -1,0 +1,28 @@
+CREATE TYPE [dbo].[ActivityForCollectionWorkList] AS TABLE(
+	[SubActivityType] [nvarchar](17) COLLATE Latin1_General_CI_AS NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[PaymentDate] [date] NULL,
+	[PaymentMode] [nvarchar](13) COLLATE Latin1_General_CI_AS NULL,
+	[IsCustomerContacted] [bit] NOT NULL,
+	[PromiseToPayDate] [date] NULL,
+	[ContactReference] [nvarchar](100) COLLATE Latin1_General_CI_AS NULL,
+	[CollectionAgentReference] [nvarchar](100) COLLATE Latin1_General_CI_AS NULL,
+	[SourceUsed] [nvarchar](200) COLLATE Latin1_General_CI_AS NULL,
+	[Amount_Amount] [decimal](16, 2) NULL,
+	[Amount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[CheckNumber] [nvarchar](100) COLLATE Latin1_General_CI_AS NULL,
+	[ReferenceInvoiceNumber] [bigint] NULL,
+	[ActivityNote] [nvarchar](4000) COLLATE Latin1_General_CI_AS NULL,
+	[CollectionWorkListId] [bigint] NULL,
+	[CollectionAgentId] [bigint] NULL,
+	[PersonContactedId] [bigint] NULL,
+	[ContractId] [bigint] NULL,
+	[CommentId] [bigint] NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

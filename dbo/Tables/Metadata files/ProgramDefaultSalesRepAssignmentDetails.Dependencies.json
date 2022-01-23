@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ProgramDefaultSalesRepAssignments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

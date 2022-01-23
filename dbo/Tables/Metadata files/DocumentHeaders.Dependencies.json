@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EntityHeaders",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LanguageConfigs",
+    "type": "Table"
+  }
+]

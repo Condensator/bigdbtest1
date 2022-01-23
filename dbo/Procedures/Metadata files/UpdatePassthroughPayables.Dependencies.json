@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Payables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplicationReceivableDetails",
+    "type": "Table"
+  }
+]

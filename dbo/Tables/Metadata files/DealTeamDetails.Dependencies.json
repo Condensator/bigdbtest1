@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DealTeams",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RoleFunctions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplicationReceivableDetails_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptPostByFileExcel_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetailsWithholdingTaxDetails",
+    "type": "Table"
+  }
+]

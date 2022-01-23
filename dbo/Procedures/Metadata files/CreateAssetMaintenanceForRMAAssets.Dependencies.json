@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "RMAAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RMAProfiles",
+    "type": "Table"
+  }
+]

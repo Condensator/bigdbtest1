@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LoanSyndications",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RemitToes",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CPUAssetMeterReadingHeaders",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUAssetMeterReadings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUOverageAssessments",
+    "type": "Table"
+  }
+]

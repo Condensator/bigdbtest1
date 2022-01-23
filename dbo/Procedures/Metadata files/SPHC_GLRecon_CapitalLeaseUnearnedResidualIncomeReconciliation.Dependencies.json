@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLEntryItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLMatchingEntryItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTransactionTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinanceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  }
+]

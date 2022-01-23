@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CustomerApprovedRegulatorsConfigs",
+    "type": "Table"
+  }
+]

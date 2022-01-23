@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetCatalogs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PreQuotes",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CPUPaymentSchedules",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ExternalBusinessTypeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  }
+]

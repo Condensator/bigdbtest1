@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "SalesTaxExemptionLevelConfigs",
+    "type": "Table"
+  }
+]

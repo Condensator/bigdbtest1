@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "GLAccounts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLJournals",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplateDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InstrumentTypeGLAccounts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobStepInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LineofBusinesses",
+    "type": "Table"
+  }
+]

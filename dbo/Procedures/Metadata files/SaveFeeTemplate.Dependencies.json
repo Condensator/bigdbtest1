@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "FeeTemplates",
+    "type": "Table"
+  }
+]

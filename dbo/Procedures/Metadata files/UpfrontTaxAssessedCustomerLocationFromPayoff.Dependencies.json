@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ContractCustomerLocations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CustomerLocations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayoffAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Payoffs",
+    "type": "Table"
+  }
+]

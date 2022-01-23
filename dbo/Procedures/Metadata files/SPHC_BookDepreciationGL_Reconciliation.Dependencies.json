@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BookDepreciations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLEntryItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLJournalDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplateDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTransactionTypes",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "TaxCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxTypes",
+    "type": "Table"
+  }
+]

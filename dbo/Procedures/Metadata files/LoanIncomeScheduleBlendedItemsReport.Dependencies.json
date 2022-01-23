@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LoanBlendedIncomeSummaryForReports",
+    "type": "Table"
+  }
+]

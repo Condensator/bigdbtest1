@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CurrencyCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "FileStores",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GetContentGuid",
+    "type": "Function"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramPromotions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramRateCards",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Programs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RateCards",
+    "type": "Table"
+  }
+]

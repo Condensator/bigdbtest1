@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CPUBillings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUFinances",
+    "type": "Table"
+  }
+]

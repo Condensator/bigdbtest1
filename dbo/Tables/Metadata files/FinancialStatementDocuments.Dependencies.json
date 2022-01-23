@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentLists",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentStatusConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "FinancialStatements",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,25 @@
+CREATE TYPE [dbo].[LeveragedLeaseContractOption] AS TABLE(
+	[ContractOption] [nvarchar](16) COLLATE Latin1_General_CI_AS NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[ContractOptionTerms] [nvarchar](8) COLLATE Latin1_General_CI_AS NULL,
+	[IsEarly] [bit] NOT NULL,
+	[IsAnyDay] [bit] NOT NULL,
+	[OptionDate] [date] NULL,
+	[PurchaseFactor] [decimal](8, 4) NULL,
+	[RenewalFactor] [decimal](8, 4) NULL,
+	[Penalty] [decimal](5, 2) NULL,
+	[IsPartialPermitted] [bit] NOT NULL,
+	[IsExcluded] [bit] NOT NULL,
+	[IsRenewalOfferApproved] [bit] NOT NULL,
+	[LesseeNoticeDays] [int] NULL,
+	[RestockingFee] [decimal](5, 2) NULL,
+	[IsActive] [bit] NOT NULL,
+	[LeveragedLeaseId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

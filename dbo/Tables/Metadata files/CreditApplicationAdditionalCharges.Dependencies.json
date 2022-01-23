@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AdditionalCharges",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BlendedItemCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditApplicationEquipmentDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditApplications",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "FeeDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "FeeTypeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCodes",
+    "type": "Table"
+  }
+]

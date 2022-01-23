@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AccountsPayables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BankAccounts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RemitToes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TreasuryPayables",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,14 @@
+CREATE TYPE [dbo].[GLJournal] AS TABLE(
+	[PostDate] [date] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[IsManualEntry] [bit] NOT NULL,
+	[IsReversalEntry] [bit] NOT NULL,
+	[LegalEntityId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

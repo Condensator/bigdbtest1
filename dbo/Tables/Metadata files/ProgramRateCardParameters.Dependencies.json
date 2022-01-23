@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ProgramDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramParameterConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramRateCards",
+    "type": "Table"
+  }
+]

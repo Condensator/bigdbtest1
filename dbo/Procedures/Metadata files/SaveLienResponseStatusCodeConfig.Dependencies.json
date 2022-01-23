@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LienResponseStatusCodeConfigs",
+    "type": "Table"
+  }
+]

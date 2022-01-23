@@ -1,0 +1,25 @@
+CREATE TYPE [dbo].[CreditRiskGrade] AS TABLE(
+	[EntryDate] [date] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[Code] [nvarchar](4) COLLATE Latin1_General_CI_AS NOT NULL,
+	[AdjustedCode] [nvarchar](4) COLLATE Latin1_General_CI_AS NULL,
+	[IsActive] [bit] NOT NULL,
+	[FinancialStatementDate] [date] NULL,
+	[RAID] [int] NULL,
+	[IsRatingSubstitution] [bit] NOT NULL,
+	[DefaultEvent] [nvarchar](21) COLLATE Latin1_General_CI_AS NULL,
+	[OverrideParty] [nvarchar](12) COLLATE Latin1_General_CI_AS NULL,
+	[OverrideRating] [nvarchar](4) COLLATE Latin1_General_CI_AS NULL,
+	[OverrideRatingDate] [date] NULL,
+	[RatingModelId] [bigint] NOT NULL,
+	[AdjustmentReasonId] [bigint] NULL,
+	[ContractId] [bigint] NULL,
+	[CustomerId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

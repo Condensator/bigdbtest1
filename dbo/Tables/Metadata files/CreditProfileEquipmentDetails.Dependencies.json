@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditApprovedStructures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Locations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PricingGroups",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramAssetTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Vendors",
+    "type": "Table"
+  }
+]

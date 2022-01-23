@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Comments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EntityConfigs",
+    "type": "Table"
+  }
+]

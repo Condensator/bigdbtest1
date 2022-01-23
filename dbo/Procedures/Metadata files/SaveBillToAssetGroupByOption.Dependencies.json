@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BillToAssetGroupByOptions",
+    "type": "Table"
+  }
+]

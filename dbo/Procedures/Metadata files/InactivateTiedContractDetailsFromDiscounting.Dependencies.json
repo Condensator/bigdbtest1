@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DiscountingContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingRepaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplicationPayableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TiedContractPaymentDetails",
+    "type": "Table"
+  }
+]

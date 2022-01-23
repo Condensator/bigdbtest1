@@ -1,0 +1,27 @@
+CREATE TYPE [dbo].[CreditApplicationAdditionalCharge] AS TABLE(
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[IncludeInAPR] [bit] NULL,
+	[IsVAT] [bit] NULL,
+	[AmountInclVAT_Amount] [decimal](16, 2) NULL,
+	[AmountInclVAT_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[SundryOrBlendedItem] [nvarchar](11) COLLATE Latin1_General_CI_AS NULL,
+	[SundryType] [nvarchar](14) COLLATE Latin1_General_CI_AS NULL,
+	[AmountExclVAT_Amount] [decimal](16, 2) NULL,
+	[AmountExclVAT_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[IsPopulatedFromCreditApplicationEquipment] [bit] NULL,
+	[AdditionalChargeId] [bigint] NOT NULL,
+	[FeeId] [bigint] NULL,
+	[BlendedItemCodeId] [bigint] NULL,
+	[PayableCodeId] [bigint] NULL,
+	[ReceivableCodeId] [bigint] NULL,
+	[CreditApplicationEquipmentDetailId] [bigint] NULL,
+	[FeeDetailId] [bigint] NULL,
+	[CreditApplicationId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

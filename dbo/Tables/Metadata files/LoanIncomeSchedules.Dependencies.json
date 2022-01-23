@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "FloatRateIndexDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceOtherCosts",
+    "type": "Table"
+  }
+]

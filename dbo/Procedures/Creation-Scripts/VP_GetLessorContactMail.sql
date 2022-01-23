@@ -1,0 +1,20 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROC [dbo].[VP_GetLessorContactMail]
+(
+@PartyId BIGINT,
+@LessorcontactEmail NVARCHAR(70) OUT
+)
+AS
+BEGIN
+SET NOCOUNT ON;
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+SELECT
+@LessorcontactEmail = V.LessorContactEmail
+FROM Vendors V
+WHERE V.Id = @PartyId
+END
+
+GO

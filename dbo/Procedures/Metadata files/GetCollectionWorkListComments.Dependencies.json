@@ -1,0 +1,42 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CollectionWorkLists",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CommentHeaders",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CommentLists",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CommentPermissions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Comments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CommentUserPreferences",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EntityConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EntityHeaders",
+    "type": "Table"
+  }
+]

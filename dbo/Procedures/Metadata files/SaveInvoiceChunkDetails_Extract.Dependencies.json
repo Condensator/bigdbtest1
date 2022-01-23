@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "InvoiceChunkDetails_Extract",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LegalEntityAddresses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntityContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Logoes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyAddresses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UserGroups",
+    "type": "Table"
+  }
+]

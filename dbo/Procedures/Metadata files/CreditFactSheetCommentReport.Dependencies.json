@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CommentHeaders",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CommentLists",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CommentResponses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Comments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EntityConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EntityHeaders",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AcquiredPortfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BusinessUnits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CostCenterConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfiles",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Customers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LineofBusinesses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Opportunities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "OriginationSourceTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProductAndServiceTypeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Programs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ShellCustomerAddresses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ShellCustomerContacts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ShellCustomerDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Vendors",
+    "type": "Table"
+  }
+]

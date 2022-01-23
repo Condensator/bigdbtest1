@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "QuoteDownPayments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "QuoteLeaseTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Quotes",
+    "type": "Table"
+  }
+]

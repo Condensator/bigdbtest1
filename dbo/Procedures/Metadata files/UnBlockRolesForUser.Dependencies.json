@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Roles",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RolesForUsers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LegalEntityAddresses",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetLocationTaxBasisProcessingDetail_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CustomerLocationTaxBasisProcessingDetail_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobStepInstanceLogs",
+    "type": "Table"
+  }
+]

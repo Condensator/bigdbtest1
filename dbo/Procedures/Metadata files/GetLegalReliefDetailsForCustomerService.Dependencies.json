@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LegalReliefBankruptcyChapters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalReliefs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  }
+]

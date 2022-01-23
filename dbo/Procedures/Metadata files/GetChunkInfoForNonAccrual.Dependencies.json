@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "NonAccrualChunks_Extract",
+    "type": "Table"
+  }
+]

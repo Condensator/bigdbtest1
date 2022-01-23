@@ -1,0 +1,17 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[GetMigratedLeaseIds]
+(
+@Range NVARCHAR(MAX)=''
+)
+AS
+BEGIN
+SET NOCOUNT ON;
+DECLARE @Query NVARCHAR(MAX) = 'SELECT TOP 100 R_LeaseFinanceId LeaseFinanceId
+FROM stgLease WITH (NOLOCK) WHERE IsMigrated = 0 AND IsFailed = 0 '+ IIF(LEN(@Range) > 0 ,'AND Id BETWEEN '+ @Range  ,'')
+EXEC(@Query);
+END
+
+GO

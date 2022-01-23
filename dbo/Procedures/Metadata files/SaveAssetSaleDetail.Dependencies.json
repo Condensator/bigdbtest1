@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetSaleDetails",
+    "type": "Table"
+  }
+]

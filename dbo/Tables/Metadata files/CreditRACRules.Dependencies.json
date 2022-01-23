@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditRACs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RACRules",
+    "type": "Table"
+  }
+]

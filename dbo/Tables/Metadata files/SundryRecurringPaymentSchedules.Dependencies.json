@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Payables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SundryRecurrings",
+    "type": "Table"
+  }
+]

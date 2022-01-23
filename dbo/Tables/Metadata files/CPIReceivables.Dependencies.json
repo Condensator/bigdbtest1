@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CPIMeters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPISchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Payables",
+    "type": "Table"
+  }
+]

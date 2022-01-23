@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ACHSchedule_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanPaydowns",
+    "type": "Table"
+  }
+]

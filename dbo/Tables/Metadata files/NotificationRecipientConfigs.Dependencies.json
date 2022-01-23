@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EmailTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "NotificationConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UserGroups",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

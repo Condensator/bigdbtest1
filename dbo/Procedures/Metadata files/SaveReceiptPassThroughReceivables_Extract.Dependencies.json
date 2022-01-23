@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptPassThroughReceivables_Extract",
+    "type": "Table"
+  }
+]

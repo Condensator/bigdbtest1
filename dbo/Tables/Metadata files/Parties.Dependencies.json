@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CustomerLegalStatusConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LanguageConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProfessionsConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SectorConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

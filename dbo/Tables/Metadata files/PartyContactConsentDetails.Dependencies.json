@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ConsentDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyContacts",
+    "type": "Table"
+  }
+]

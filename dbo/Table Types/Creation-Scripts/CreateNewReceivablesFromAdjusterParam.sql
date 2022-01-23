@@ -1,0 +1,27 @@
+CREATE TYPE [dbo].[CreateNewReceivablesFromAdjusterParam] AS TABLE(
+	[ReceivableTempId] [bigint] NULL,
+	[DueDate] [datetime] NULL,
+	[ReceivableCodeId] [bigint] NULL,
+	[EntityType] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[InvoiceComment] [nvarchar](max) COLLATE Latin1_General_CI_AS NULL,
+	[InvoiceReceivableGroupingOption] [nvarchar](50) COLLATE Latin1_General_CI_AS NULL,
+	[IncomeType] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[PaymentScheduleId] [bigint] NULL,
+	[EntityId] [bigint] NULL,
+	[CustomerId] [bigint] NULL,
+	[RemitToId] [bigint] NULL,
+	[TaxRemitToId] [bigint] NULL,
+	[LegalEntityId] [bigint] NULL,
+	[IsDSL] [bit] NULL,
+	[IsServiced] [bit] NULL,
+	[IsCollected] [bit] NULL,
+	[IsPrivateLabel] [bit] NULL,
+	[IsDummy] [bit] NULL,
+	[LocationId] [bigint] NULL,
+	[SourceId] [bigint] NULL,
+	[SourceTable] [nvarchar](50) COLLATE Latin1_General_CI_AS NULL,
+	[FunderId] [bigint] NULL,
+	[AlternateBillingCurrencyId] [bigint] NULL,
+	[ExchangeRate] [decimal](20, 10) NULL
+)
+GO

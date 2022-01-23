@@ -1,0 +1,47 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetCatalogs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetCategories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Makes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Manufacturers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Models",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PricingGroups",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Products",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SKUSets",
+    "type": "Table"
+  }
+]

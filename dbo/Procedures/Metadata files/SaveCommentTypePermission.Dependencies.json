@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CommentTypePermissions",
+    "type": "Table"
+  }
+]

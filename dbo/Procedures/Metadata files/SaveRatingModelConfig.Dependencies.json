@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "RatingModelConfigs",
+    "type": "Table"
+  }
+]

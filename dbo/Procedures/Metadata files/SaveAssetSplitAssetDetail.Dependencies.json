@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetSplitAssetDetails",
+    "type": "Table"
+  }
+]

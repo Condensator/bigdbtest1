@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AccountsPayablePayments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "OFACHits",
+    "type": "Table"
+  }
+]

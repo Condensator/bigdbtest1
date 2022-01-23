@@ -1,0 +1,28 @@
+CREATE TYPE [dbo].[VertexContractDetail_Extract] AS TABLE(
+	[ContractId] [bigint] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[SequenceNumber] [nvarchar](40) COLLATE Latin1_General_CI_AS NOT NULL,
+	[IsSyndicated] [bit] NOT NULL,
+	[TaxRemittanceType] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[TaxAssessmentLevel] [nvarchar](10) COLLATE Latin1_General_CI_AS NOT NULL,
+	[DealProductTypeId] [bigint] NULL,
+	[LineofBusinessId] [bigint] NULL,
+	[Term] [decimal](16, 2) NOT NULL,
+	[BusCode] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[ShortLeaseType] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[IsContractCapitalizeUpfront] [bit] NOT NULL,
+	[CommencementDate] [date] NULL,
+	[LeaseFinanceId] [bigint] NOT NULL,
+	[NumberOfInceptionPayments] [int] NOT NULL,
+	[ClassificationContractType] [nvarchar](100) COLLATE Latin1_General_CI_AS NOT NULL,
+	[IsLease] [bit] NOT NULL,
+	[JobStepInstanceId] [bigint] NOT NULL,
+	[MaturityDate] [date] NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

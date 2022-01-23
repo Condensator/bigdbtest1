@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AutoPayoffTemplateCollectionParameterDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AutoPayoffTemplateParameterDetails",
+    "type": "Table"
+  }
+]

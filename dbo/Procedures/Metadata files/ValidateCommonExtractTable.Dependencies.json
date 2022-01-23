@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CommonExternalReceipt_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "MT940File_Dump",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptBatches",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  }
+]

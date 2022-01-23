@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "RunBatchJobs",
+    "type": "Table"
+  }
+]

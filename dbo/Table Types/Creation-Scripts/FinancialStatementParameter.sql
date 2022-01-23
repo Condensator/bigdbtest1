@@ -1,0 +1,27 @@
+CREATE TYPE [dbo].[FinancialStatementParameter] AS TABLE(
+	[ReportingPeriod] [nvarchar](9) COLLATE Latin1_General_CI_AS NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[Date] [date] NULL,
+	[Currency] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[TotalAssets] [decimal](16, 2) NULL,
+	[TotalLiabilities] [decimal](16, 2) NULL,
+	[LTLiabilities] [decimal](16, 2) NULL,
+	[Equity] [decimal](16, 2) NULL,
+	[Revenue] [decimal](16, 2) NULL,
+	[NetIncome] [decimal](16, 2) NULL,
+	[EBIT] [decimal](16, 2) NULL,
+	[STReceivables] [decimal](16, 2) NULL,
+	[STLiabilities] [decimal](16, 2) NULL,
+	[BankLoans] [decimal](16, 2) NULL,
+	[PPE] [decimal](16, 2) NULL,
+	[Comment] [nvarchar](1000) COLLATE Latin1_General_CI_AS NULL,
+	[IsActive] [bit] NULL,
+	[CreditDecisionForCreditApplicationId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

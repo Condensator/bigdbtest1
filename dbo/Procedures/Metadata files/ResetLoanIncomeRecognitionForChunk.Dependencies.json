@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LoanIncomeRecognitionJobExtracts",
+    "type": "Table"
+  }
+]

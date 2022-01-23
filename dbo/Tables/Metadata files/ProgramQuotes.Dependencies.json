@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ProgramDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Programs",
+    "type": "Table"
+  }
+]

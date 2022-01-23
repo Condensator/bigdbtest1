@@ -1,0 +1,26 @@
+CREATE TYPE [dbo].[LoanPaydownAssetDetail] AS TABLE(
+	[AssetPaydownStatus] [nvarchar](17) COLLATE Latin1_General_CI_AS NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[PrePaymentAmount_Amount] [decimal](16, 2) NOT NULL,
+	[PrePaymentAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[IsActive] [bit] NOT NULL,
+	[AssetValuation_Amount] [decimal](16, 2) NOT NULL,
+	[AssetValuation_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[NetWritedown_Amount] [decimal](16, 2) NOT NULL,
+	[NetWritedown_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[WrittenDownNBV_Amount] [decimal](16, 2) NOT NULL,
+	[WrittenDownNBV_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[AssetCost_Amount] [decimal](16, 2) NOT NULL,
+	[AssetCost_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[IsPartiallyOwned] [bit] NOT NULL,
+	[HoldingStatus] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[AssetId] [bigint] NOT NULL,
+	[LoanPaydownId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

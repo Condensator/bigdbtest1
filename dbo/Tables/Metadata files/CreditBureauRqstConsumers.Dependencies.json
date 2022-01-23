@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditBureauConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditBureauRequests",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfileThirdPartyRelationships",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  }
+]

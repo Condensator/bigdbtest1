@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DisbursementRequestPayables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Payables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TreasuryPayables",
+    "type": "Table"
+  }
+]

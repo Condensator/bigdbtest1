@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "GLConfigurations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTransactionTypes",
+    "type": "Table"
+  }
+]

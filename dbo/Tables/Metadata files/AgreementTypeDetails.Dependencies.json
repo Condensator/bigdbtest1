@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AgreementTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DealTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LineofBusinesses",
+    "type": "Table"
+  }
+]

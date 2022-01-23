@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypeLabelConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RecurringACHPaymentRequests",
+    "type": "Table"
+  }
+]

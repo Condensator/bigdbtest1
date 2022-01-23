@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentExtractionScripts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentTypes",
+    "type": "Table"
+  }
+]

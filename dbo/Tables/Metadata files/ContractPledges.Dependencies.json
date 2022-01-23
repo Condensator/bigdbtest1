@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ContractPledgeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "FloatRateIndexes",
+    "type": "Table"
+  }
+]

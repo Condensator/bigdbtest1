@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BusinessCalendars",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  }
+]

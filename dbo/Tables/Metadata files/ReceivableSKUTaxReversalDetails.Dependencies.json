@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetSKUs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableSKUs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTaxDetails",
+    "type": "Table"
+  }
+]

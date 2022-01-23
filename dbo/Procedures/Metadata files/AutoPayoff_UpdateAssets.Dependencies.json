@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetGLDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetHistories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetLocations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Locations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxDepEntities",
+    "type": "Table"
+  }
+]

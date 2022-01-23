@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DecisionTableParameters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DecisionTableRules",
+    "type": "Table"
+  }
+]

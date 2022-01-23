@@ -1,0 +1,122 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DisbursementRequestPayables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DisbursementRequestPayees",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DisbursementRequestPaymentDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DisbursementRequests",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentAttachments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "FileStores",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GetContentGuid",
+    "type": "Function"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFundings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFundings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceOtherCostDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceOtherCosts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Payables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PaymentVoucherDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PaymentVouchers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TreasuryPayableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TreasuryPayables",
+    "type": "Table"
+  }
+]

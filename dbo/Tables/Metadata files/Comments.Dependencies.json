@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CommentEntityConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CommentTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

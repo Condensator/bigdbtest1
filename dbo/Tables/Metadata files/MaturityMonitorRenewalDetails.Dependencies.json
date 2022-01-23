@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LeaseContractOptions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "MaturityMonitors",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

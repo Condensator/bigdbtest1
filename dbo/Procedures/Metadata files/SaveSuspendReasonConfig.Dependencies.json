@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "SuspendReasonConfigs",
+    "type": "Table"
+  }
+]

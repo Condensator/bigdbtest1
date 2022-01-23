@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentAttachments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentEmails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentPackAttachments",
+    "type": "Table"
+  }
+]

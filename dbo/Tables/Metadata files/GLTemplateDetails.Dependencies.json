@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "GLAccounts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLEntryItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLUserBooks",
+    "type": "Table"
+  }
+]

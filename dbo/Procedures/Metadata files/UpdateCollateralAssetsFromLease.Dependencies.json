@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CollateralAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LoanFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceAssets",
+    "type": "Table"
+  }
+]

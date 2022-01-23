@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalFormationTypeConfigs",
+    "type": "Table"
+  }
+]

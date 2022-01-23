@@ -1,0 +1,52 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptAllocations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplicationReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptApplications",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receipts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UnallocatedRefundDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UnallocatedRefunds",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UnappliedReceipts",
+    "type": "Table"
+  }
+]

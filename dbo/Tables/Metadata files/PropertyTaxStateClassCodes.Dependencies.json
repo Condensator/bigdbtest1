@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetClassCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PropertyTaxParameters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

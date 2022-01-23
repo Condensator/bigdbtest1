@@ -1,0 +1,25 @@
+CREATE TYPE [dbo].[SundryRecurringPaymentSchedule] AS TABLE(
+	[Number] [int] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[DueDate] [date] NOT NULL,
+	[Amount_Amount] [decimal](16, 2) NOT NULL,
+	[Amount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[PayableAmount_Amount] [decimal](16, 2) NOT NULL,
+	[PayableAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[IsActive] [bit] NOT NULL,
+	[BillPastEndDate] [bit] NOT NULL,
+	[SourceId] [bigint] NOT NULL,
+	[SourceModule] [nvarchar](15) COLLATE Latin1_General_CI_AS NOT NULL,
+	[ProjectedVATAmount_Amount] [decimal](16, 2) NOT NULL,
+	[ProjectedVATAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[ReceivableId] [bigint] NULL,
+	[PayableId] [bigint] NULL,
+	[SundryRecurringId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

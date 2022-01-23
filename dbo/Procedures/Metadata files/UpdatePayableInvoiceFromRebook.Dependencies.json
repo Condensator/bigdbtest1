@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LoanFundings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoices",
+    "type": "Table"
+  }
+]

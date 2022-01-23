@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "SalesTaxAssetDetail_Extract",
+    "type": "Table"
+  }
+]

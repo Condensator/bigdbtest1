@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ContractAmendmentReasonCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CPUFinances",
+    "type": "Table"
+  }
+]

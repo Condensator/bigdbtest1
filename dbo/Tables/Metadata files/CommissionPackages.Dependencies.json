@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PlanBasesPayouts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SalesOfficers",
+    "type": "Table"
+  }
+]

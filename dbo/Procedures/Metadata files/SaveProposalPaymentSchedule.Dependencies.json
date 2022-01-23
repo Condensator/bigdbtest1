@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ProposalPaymentSchedules",
+    "type": "Table"
+  }
+]

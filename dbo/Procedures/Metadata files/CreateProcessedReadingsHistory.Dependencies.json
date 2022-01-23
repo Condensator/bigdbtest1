@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EnmasseMeterReadingHistories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EnmasseMeterReadingHistoryLogs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EnmasseMeterReadingInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EnmasseMeterReadingLogs",
+    "type": "Table"
+  }
+]

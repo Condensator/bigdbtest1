@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetCategories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Manufacturers",
+    "type": "Table"
+  }
+]

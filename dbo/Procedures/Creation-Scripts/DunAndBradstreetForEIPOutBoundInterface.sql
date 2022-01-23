@@ -1,0 +1,83 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROC [dbo].[DunAndBradstreetForEIPOutBoundInterface]
+(
+@AsOfDate DateTime
+)
+AS
+BEGIN
+SET NOCOUNT ON;
+WITH CTE_LatestCreditProfileContracts AS
+(
+SELECT * FROM
+(
+SELECT
+CreditProfileId=CreditProfiles.Id
+,CreditApprovedStructureId=CreditApprovedStructures.Id
+,ContractSequenceNumber=Contracts.SequenceNumber,
+CONVERT(NVARCHAR(10),Contracts.OriginalBookingDate,101) AS InitialBookingDate,
+RANK=ROW_NUMBER() OVER(Partition By CreditProfiles.Id ORDER By Contracts.Id DESC)
+FROM CreditProfiles
+INNER JOIN CreditApprovedStructures ON CreditApprovedStructures.CreditProfileId=CreditProfiles.Id
+INNER JOIN Contracts ON Contracts.CreditApprovedStructureId=CreditApprovedStructures.Id AND Contracts.Status='UnCommenced'
+)TEMP WHERE RANK=1
+)
+SELECT
+CTE_LatestCreditProfileContracts.ContractSequenceNumber AS LeaseNumber,
+CreditProfiles.Number AS AppId,
+CTE_LatestCreditProfileContracts.InitialBookingDate,
+CreditBureauRqstBusinesses.BusinessBureauScore AS CCR,
+CreditBureauRqstBusinesses.SuitsIndicatorCode,
+CreditBureauRqstBusinesses.NetWorthAmount,
+CreditBureauRqstBusinesses.OutOfBusinessIndicatorCode,
+CreditBureauRqstBusinesses.PaydexFirmScore,
+CreditBureauRqstBusinesses.SatisfactoryPaymentExperiencesCount,
+CreditBureauRqstBusinesses.IndustryNormPaydexScore,
+CreditBureauRqstBusinesses.JudgementsCount AS JudgmentsIndicatorCode,
+CreditBureauRqstBusinesses.LiensIndicatorCode,
+CreditBureauRqstBusinesses.CurrentManagementControlYear,
+CreditBureauRqstBusinesses.BankruptciesIndicatorCode,
+CreditBureauRqstBusinesses.YearsInBusinessCount AS Age,
+CreditBureauRqstBusinesses.TotalEmployeesCount AS Size,
+BusinessTypeNAICSCodes.NAICSCode AS NAICS,
+CreditBureauRqstBusinesses.HighCredit,
+CreditBureauRqstBusinesses.BusinessReportTimeAsCurrentOwner,
+CreditBureauRqstBusinesses.CurrentMinusIndustryNormPaydexScore,
+CreditBureauRqstBusinesses.PercentSatisfactoryExperiences,
+CreditBureauRqstBusinesses.PercentSlowNegativeExperiences,
+CreditBureauRqstBusinesses.BankruptcyRelationshipIndicatorCode AS BankruptcyRelationIndicator,
+CreditBureauRqstBusinesses.CompositePaydexCurrent12MonthAverageAmount  AS CompositePaydexCurrent12Months,
+CreditBureauRqstBusinesses.CompositePaydexPrior12MonthAverageAmount AS CompositePaydexPrior12Months,
+CreditBureauRqstBusinesses.FinancialConditionIndicatorCode AS ConditionIndicator,
+CreditBureauRqstBusinesses.HistoryIndicatorCode AS HistoryIndicator,
+CreditBureauRqstBusinesses.NoTradeIndicatorCode AS TradesPresentIndicator,
+CreditBureauRqstBusinesses.ExperiencesInPaydexCalculationCount AS NumberofExperiencesinPaydex,
+CreditBureauRqstBusinesses.NegativePaymentExperiencesCount AS NumberofNegativePayment,
+CreditBureauRqstBusinesses.DelinquentPaymentExperiencesCount AS NumberofPastDuePaymentExperiences,
+CreditBureauRqstBusinesses.SlowAndNegativePaymentExperiencesCount AS NumberofSlowandNegativePaymentExperiences,
+CreditBureauRqstBusinesses.SlowPaymentExperiencesCount AS NumberofSlowPaymentExperiences,
+CreditBureauRqstBusinesses.OutOfBusinessIndicatorCode AS OutofBusinessIndicator,
+CreditBureauRqstBusinesses.TotalDelinquentAmount AS TotalAmountPastDue,
+CreditBureauRqstBusinesses.ExperiencesCount AS TotalNumberExperiencesinFile,
+CreditBureauRqstBusinesses.TrendIndicatorCode AS TrendIndicator,
+CreditBureauRqstBusinesses.BusinessReportDerogatoryRating AS ReportRating,
+CONVERT(NVARCHAR,CreditBureauRequests.DataReceivedDate,101) AS ResponseDate,
+CreditBureauRqstBusinesses.BureauCustomerNumber AS DUNSNumber,
+CreditBureauRequests.ScorecardVersion AS FICOScorecardID
+FROM CreditProfiles
+INNER JOIN CreditBureauRequests  ON CreditProfiles.Id = CreditBureauRequests.CreditProfileId
+INNER JOIN CreditBureauRqstBusinesses on CreditBureauRequests.Id=CreditBureauRqstBusinesses.CreditBureauRequestId
+AND CreditProfiles.Status='Approved'
+AND CreditProfiles.CreatedTime <= @AsOfDate
+AND CreditBureauRequests.DataRequestStatus IN ('NeedsReview','Completed','Failed')
+INNER JOIN ( SELECT LiquidCreditId = MAX(Id),CreditProfileId FROM CreditBureauRequests WHERE DataRequestStatus IN ('NeedsReview','Completed','Failed') GROUP BY CreditProfileId) temp
+ON  temp.CreditProfileId = CreditBureauRequests.CreditProfileId AND temp.LiquidCreditId = CreditBureauRequests.Id
+LEFT JOIN CTE_LatestCreditProfileContracts ON CTE_LatestCreditProfileContracts.CreditProfileId=CreditProfiles.Id
+LEFT JOIN Customers ON Customers.Id=CreditProfiles.CustomerId
+LEFT JOIN BusinessTypeNAICSCodes ON BusinessTypeNAICSCodes.Id=Customers.BusinessTypeNAICSCodeId
+ORDER BY CreditProfiles.Id
+END
+
+GO

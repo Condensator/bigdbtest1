@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetsValueStatusChangeDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetsValueStatusChanges",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetValueHistories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoiceAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayableInvoices",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "IsStringNullOrEmpty",
+    "type": "Function"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypes",
+    "type": "Table"
+  }
+]

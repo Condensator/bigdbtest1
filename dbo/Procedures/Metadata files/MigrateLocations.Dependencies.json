@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ExceptionLog",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "GlobalParameters",
+    "type": "Table"
+  }
+]

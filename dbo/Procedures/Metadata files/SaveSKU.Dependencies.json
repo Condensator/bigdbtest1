@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "SKUs",
+    "type": "Table"
+  }
+]

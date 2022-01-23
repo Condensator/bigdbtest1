@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Cities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Counties",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

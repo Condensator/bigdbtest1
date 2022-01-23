@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DiscountingAmortizationSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingCapitalizedInterests",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Payables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTaxDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTaxes",
+    "type": "Table"
+  }
+]

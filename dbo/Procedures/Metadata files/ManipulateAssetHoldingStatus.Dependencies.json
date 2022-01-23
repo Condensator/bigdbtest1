@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetHoldingStatusChangeDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetHoldingStatusChanges",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentEntityEmailConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentGroups",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmailTemplates",
+    "type": "Table"
+  }
+]

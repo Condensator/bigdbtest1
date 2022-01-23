@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ExtractInvoices",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypes",
+    "type": "Table"
+  }
+]

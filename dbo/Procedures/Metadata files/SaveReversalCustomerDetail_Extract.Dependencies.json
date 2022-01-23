@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReversalCustomerDetail_Extract",
+    "type": "Table"
+  }
+]

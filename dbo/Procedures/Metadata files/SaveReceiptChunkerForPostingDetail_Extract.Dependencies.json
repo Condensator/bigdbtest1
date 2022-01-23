@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptChunkerForPostingDetail_Extract",
+    "type": "Table"
+  }
+]

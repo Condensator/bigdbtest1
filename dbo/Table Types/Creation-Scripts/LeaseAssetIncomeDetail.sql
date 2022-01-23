@@ -1,0 +1,26 @@
+CREATE TYPE [dbo].[LeaseAssetIncomeDetail] AS TABLE(
+	[Income_Amount] [decimal](16, 2) NOT NULL,
+	[Income_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[ResidualIncome_Amount] [decimal](16, 2) NOT NULL,
+	[ResidualIncome_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[LeaseIncome_Amount] [decimal](16, 2) NOT NULL,
+	[LeaseIncome_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[LeaseResidualIncome_Amount] [decimal](16, 2) NOT NULL,
+	[LeaseResidualIncome_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[FinanceIncome_Amount] [decimal](16, 2) NOT NULL,
+	[FinanceIncome_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[FinanceResidualIncome_Amount] [decimal](16, 2) NOT NULL,
+	[FinanceResidualIncome_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[SalesTypeNBV_Amount] [decimal](16, 2) NOT NULL,
+	[SalesTypeNBV_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[AssetYieldForLeaseComponents] [decimal](28, 18) NOT NULL,
+	[AssetYieldForFinanceComponents] [decimal](28, 18) NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

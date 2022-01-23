@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "StaticHistoryAssetValueHistories",
+    "type": "Table"
+  }
+]

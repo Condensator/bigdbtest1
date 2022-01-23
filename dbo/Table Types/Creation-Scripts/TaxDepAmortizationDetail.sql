@@ -1,0 +1,27 @@
+CREATE TYPE [dbo].[TaxDepAmortizationDetail] AS TABLE(
+	[DepreciationDate] [date] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[FiscalYear] [int] NOT NULL,
+	[BeginNetBookValue_Amount] [decimal](16, 2) NOT NULL,
+	[BeginNetBookValue_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[DepreciationAmount_Amount] [decimal](16, 2) NOT NULL,
+	[DepreciationAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[EndNetBookValue_Amount] [decimal](16, 2) NOT NULL,
+	[EndNetBookValue_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[IsAccounting] [bit] NOT NULL,
+	[IsSchedule] [bit] NOT NULL,
+	[IsGLPosted] [bit] NOT NULL,
+	[IsAdjustmentEntry] [bit] NOT NULL,
+	[TaxDepAmortizationDetailForecastId] [bigint] NULL,
+	[TaxDepreciationConventionId] [bigint] NULL,
+	[TaxDepreciationTemplateDetailId] [bigint] NOT NULL,
+	[CurrencyId] [bigint] NULL,
+	[TaxDepAmortizationId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

@@ -1,0 +1,26 @@
+CREATE TYPE [dbo].[ReceiptPostByDSLDetail] AS TABLE(
+	[UpdateRunTillDate] [date] NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[PrincipalBalance_Amount] [decimal](16, 2) NULL,
+	[PrincipalBalance_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[InterestRemaining_Amount] [decimal](16, 2) NULL,
+	[InterestRemaining_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[PrincipalRemaining_Amount] [decimal](16, 2) NULL,
+	[PrincipalRemaining_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[AccruedInterest_Amount] [decimal](16, 2) NULL,
+	[AccruedInterest_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[PrincipalAmount_Amount] [decimal](16, 2) NULL,
+	[PrincipalAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[InterestAmount_Amount] [decimal](16, 2) NULL,
+	[InterestAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[IsActive] [bit] NOT NULL,
+	[ContractId] [bigint] NULL,
+	[ReceiptId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

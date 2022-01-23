@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DiscountingRepaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingSundries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Sundries",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BillToes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmailTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceFormats",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceTypeLabelConfigs",
+    "type": "Table"
+  }
+]

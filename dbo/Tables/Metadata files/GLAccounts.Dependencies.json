@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "GLAccountTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLUserBooks",
+    "type": "Table"
+  }
+]

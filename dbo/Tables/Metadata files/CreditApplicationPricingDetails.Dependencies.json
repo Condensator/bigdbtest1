@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditApplications",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramAssetTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramPromotions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "QuoteDownPayments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "QuoteLeaseTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Quotes",
+    "type": "Table"
+  }
+]

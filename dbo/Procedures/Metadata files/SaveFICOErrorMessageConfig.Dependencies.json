@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "FICOErrorMessageConfigs",
+    "type": "Table"
+  }
+]

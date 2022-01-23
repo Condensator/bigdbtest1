@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "GenericInvoiceComments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceExtractReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "QuoteLeaseTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoiceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  }
+]

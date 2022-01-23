@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DealProductTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayOffTemplates",
+    "type": "Table"
+  }
+]

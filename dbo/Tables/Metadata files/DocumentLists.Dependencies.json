@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentGroupDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentHeaders",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentTypes",
+    "type": "Table"
+  }
+]

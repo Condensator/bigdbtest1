@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ACHSchedule_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receipts",
+    "type": "Table"
+  }
+]

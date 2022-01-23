@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PaydownCalculations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TerminationTypeParameterConfigs",
+    "type": "Table"
+  }
+]

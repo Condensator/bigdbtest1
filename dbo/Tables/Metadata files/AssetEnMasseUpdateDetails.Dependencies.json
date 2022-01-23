@@ -1,0 +1,67 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetCatalogs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetEnMasseUpdates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Customers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Makes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Manufacturers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Models",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PropertyTaxReportCodeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SaleLeasebackCodeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "VendorAssetCategoryConfigs",
+    "type": "Table"
+  }
+]

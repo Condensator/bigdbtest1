@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BusinessUnits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UserLoginAudits",
+    "type": "Table"
+  }
+]

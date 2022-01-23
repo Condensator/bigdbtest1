@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ConsentConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentInstances",
+    "type": "Table"
+  }
+]

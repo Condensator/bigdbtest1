@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditApplicationPricingDetails",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DecisionTableTypeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EntityConfigs",
+    "type": "Table"
+  }
+]

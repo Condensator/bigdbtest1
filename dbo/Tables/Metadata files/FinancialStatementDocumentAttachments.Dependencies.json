@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentAttachments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "FinancialStatementDocuments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

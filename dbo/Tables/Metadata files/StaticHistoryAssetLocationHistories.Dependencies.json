@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "StaticHistoryAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "StaticHistoryLocations",
+    "type": "Table"
+  }
+]

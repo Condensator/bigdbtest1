@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EntityResources",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PropertyTaxStateSettings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

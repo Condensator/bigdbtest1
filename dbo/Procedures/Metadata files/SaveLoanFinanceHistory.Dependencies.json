@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LoanFinanceHistories",
+    "type": "Table"
+  }
+]

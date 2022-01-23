@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "NonAccrualRuleReceivableTypes",
+    "type": "Table"
+  }
+]

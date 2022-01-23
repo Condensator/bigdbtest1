@@ -1,0 +1,25 @@
+CREATE TYPE [dbo].[ReceiptSyndicatedReceivables_Extract] AS TABLE(
+	[ReceivableId] [bigint] NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[ReceivableRemitToId] [bigint] NULL,
+	[ScrapeFactor] [decimal](16, 2) NULL,
+	[ScrapeReceivableCodeId] [bigint] NULL,
+	[RentalProceedsPayableCodeId] [bigint] NULL,
+	[FunderBillToId] [bigint] NULL,
+	[FunderLocationId] [bigint] NULL,
+	[FunderRemitToId] [bigint] NULL,
+	[TaxRemitFunderId] [bigint] NULL,
+	[TaxRemitToId] [bigint] NULL,
+	[UtilizedScrapeAmount] [decimal](16, 2) NULL,
+	[JobStepInstanceId] [bigint] NULL,
+	[RentalProceedsPayableCodeName] [nvarchar](100) COLLATE Latin1_General_CI_AS NULL,
+	[InvoiceReceivableGroupingOption] [nvarchar](8) COLLATE Latin1_General_CI_AS NULL,
+	[WithholdingTaxRate] [decimal](5, 2) NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

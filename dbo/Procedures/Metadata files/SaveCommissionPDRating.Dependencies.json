@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CommissionPDRatings",
+    "type": "Table"
+  }
+]

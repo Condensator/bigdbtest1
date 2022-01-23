@@ -1,0 +1,27 @@
+CREATE TYPE [dbo].[AssetSKU] AS TABLE(
+	[Name] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[Alias] [nvarchar](100) COLLATE Latin1_General_CI_AS NOT NULL,
+	[SerialNumber] [nvarchar](100) COLLATE Latin1_General_CI_AS NULL,
+	[Description] [nvarchar](500) COLLATE Latin1_General_CI_AS NULL,
+	[IsLeaseComponent] [bit] NOT NULL,
+	[Quantity] [int] NOT NULL,
+	[IsActive] [bit] NOT NULL,
+	[IsSalesTaxExempt] [bit] NOT NULL,
+	[ManufacturerId] [bigint] NULL,
+	[MakeId] [bigint] NULL,
+	[ModelId] [bigint] NULL,
+	[TypeId] [bigint] NOT NULL,
+	[AssetCatalogId] [bigint] NULL,
+	[AssetCategoryId] [bigint] NULL,
+	[ProductId] [bigint] NULL,
+	[PricingGroupId] [bigint] NULL,
+	[AssetId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

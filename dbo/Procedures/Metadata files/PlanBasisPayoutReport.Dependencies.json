@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EntityResources",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PlanBases",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PlanBasesPayouts",
+    "type": "Table"
+  }
+]

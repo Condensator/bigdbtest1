@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "JobServiceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobServices",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CurrencyExchangeRates",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetClassConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BodyTypeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ColourConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ColourTypeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DriveTrainConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "FuelTypeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SuspensionConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TireSizeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TitleCodeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WheelConfigs",
+    "type": "Table"
+  }
+]

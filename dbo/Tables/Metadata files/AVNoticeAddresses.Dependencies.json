@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AVNotices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BankAccounts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RemitToes",
+    "type": "Table"
+  }
+]

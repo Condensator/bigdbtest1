@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "TaxDepAmortizationDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxDepAmortizationGLHeaders",
+    "type": "Table"
+  }
+]

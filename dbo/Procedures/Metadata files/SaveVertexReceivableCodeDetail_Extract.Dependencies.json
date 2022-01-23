@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "VertexReceivableCodeDetail_Extract",
+    "type": "Table"
+  }
+]

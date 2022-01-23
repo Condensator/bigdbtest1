@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetSaleDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetSales",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ConvertCSVToBigIntTable",
+    "type": "TF"
+  }
+]

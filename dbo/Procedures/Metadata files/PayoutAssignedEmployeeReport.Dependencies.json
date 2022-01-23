@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PlanBasesPayouts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PlanPayoutOptionAssignedEmployees",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SalesOfficers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

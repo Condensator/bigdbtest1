@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditBureauDirectConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfiles",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  }
+]

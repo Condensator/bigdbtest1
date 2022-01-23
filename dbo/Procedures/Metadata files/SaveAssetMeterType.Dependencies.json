@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetMeterTypes",
+    "type": "Table"
+  }
+]

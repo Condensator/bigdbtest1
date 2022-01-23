@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditPrincipalDeclineReasons",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PrincipalDeclineReasonCodeConfigs",
+    "type": "Table"
+  }
+]

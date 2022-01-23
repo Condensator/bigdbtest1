@@ -1,0 +1,52 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetSplitDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetSplits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetsValueStatusChangeDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetsValueStatusChanges",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetValueHistories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLEntryItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLJournalDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplateDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTransactionTypes",
+    "type": "Table"
+  }
+]

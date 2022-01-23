@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "InsuranceTemplateDetails",
+    "type": "Table"
+  }
+]

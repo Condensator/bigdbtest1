@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AccountsPayableOFACRequests",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DiscountingAmortizationSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingCapitalizedInterests",
+    "type": "Table"
+  }
+]

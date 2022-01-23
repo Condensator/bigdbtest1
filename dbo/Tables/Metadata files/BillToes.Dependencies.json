@@ -1,0 +1,47 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Customers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "EmailTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceFormats",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JurisdictionDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Jurisdictions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LanguageConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Locations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyAddresses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PartyContacts",
+    "type": "Table"
+  }
+]

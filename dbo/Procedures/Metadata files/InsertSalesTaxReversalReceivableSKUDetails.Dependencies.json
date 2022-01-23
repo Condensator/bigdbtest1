@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceivableSKUs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableSKUTaxReversalDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalReceivableDetail_Extract",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalReceivableSKUDetail_Extract",
+    "type": "Table"
+  }
+]

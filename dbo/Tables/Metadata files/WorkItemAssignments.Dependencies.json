@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItemAssignmentConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItems",
+    "type": "Table"
+  }
+]

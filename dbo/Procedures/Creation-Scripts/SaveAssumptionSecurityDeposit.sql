@@ -1,0 +1,36 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+CREATE PROC [dbo].[SaveAssumptionSecurityDeposit]
+(
+ @val [dbo].[AssumptionSecurityDeposit] READONLY
+)
+AS
+SET NOCOUNT ON;
+DECLARE @Output TABLE(
+ [Action] NVARCHAR(10) NOT NULL,
+ [Id] bigint NOT NULL,
+ [Token] int NOT NULL,
+ [RowVersion] BIGINT,
+ [OldRowVersion] BIGINT
+)
+MERGE [dbo].[AssumptionSecurityDeposits] With (ForceSeek) AS T
+USING (SELECT * FROM @val) AS S
+		ON ( T.Id = S.Id)
+WHEN MATCHED THEN
+	UPDATE SET [BalanceWithOldCustomer_Amount]=S.[BalanceWithOldCustomer_Amount],[BalanceWithOldCustomer_Currency]=S.[BalanceWithOldCustomer_Currency],[IsActive]=S.[IsActive],[SecurityDepositAmount_Amount]=S.[SecurityDepositAmount_Amount],[SecurityDepositAmount_Currency]=S.[SecurityDepositAmount_Currency],[SecurityDepositId]=S.[SecurityDepositId],[TransferToNewCustomer_Amount]=S.[TransferToNewCustomer_Amount],[TransferToNewCustomer_Currency]=S.[TransferToNewCustomer_Currency],[UpdatedById]=S.[UpdatedById],[UpdatedTime]=S.[UpdatedTime]
+WHEN NOT MATCHED THEN
+	INSERT ([AssumptionId],[BalanceWithOldCustomer_Amount],[BalanceWithOldCustomer_Currency],[CreatedById],[CreatedTime],[IsActive],[SecurityDepositAmount_Amount],[SecurityDepositAmount_Currency],[SecurityDepositId],[TransferToNewCustomer_Amount],[TransferToNewCustomer_Currency])
+    VALUES (S.[AssumptionId],S.[BalanceWithOldCustomer_Amount],S.[BalanceWithOldCustomer_Currency],S.[CreatedById],S.[CreatedTime],S.[IsActive],S.[SecurityDepositAmount_Amount],S.[SecurityDepositAmount_Currency],S.[SecurityDepositId],S.[TransferToNewCustomer_Amount],S.[TransferToNewCustomer_Currency])
+
+OUTPUT $action, Inserted.Id, S.Token, Inserted.[RowVersion], Deleted.[RowVersion]
+INTO @Output;
+
+SELECT o.Id, o.Token, o.[RowVersion], CASE WHEN s.[RowVersion] <> o.[OldRowVersion] THEN 1 ELSE 0 END as ErrorCode FROM @Output o join @val s on o.Token = s.Token AND [Action] = 'UPDATE'
+UNION ALL
+SELECT Id, Token, [RowVersion], 0 as ErrorCode FROM @Output WHERE [Action] = 'INSERT';
+
+GO

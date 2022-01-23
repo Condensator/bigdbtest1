@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditBureauRqstBusinesses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ModelReasonConfigs",
+    "type": "Table"
+  }
+]

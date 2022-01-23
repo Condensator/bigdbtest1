@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "JobInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobServices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobSteps",
+    "type": "Table"
+  }
+]

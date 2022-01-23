@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentLists",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentTypeSubSystemDetails",
+    "type": "Table"
+  }
+]

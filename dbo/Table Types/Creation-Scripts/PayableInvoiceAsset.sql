@@ -1,0 +1,25 @@
+CREATE TYPE [dbo].[PayableInvoiceAsset] AS TABLE(
+	[AcquisitionCost_Amount] [decimal](16, 2) NOT NULL,
+	[AcquisitionCost_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[OtherCost_Amount] [decimal](16, 2) NULL,
+	[OtherCost_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[IsActive] [bit] NOT NULL,
+	[InterimInterestStartDate] [date] NULL,
+	[InterestUpdateLastDate] [date] NULL,
+	[VATAmount_Amount] [decimal](16, 2) NULL,
+	[VATAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[VATType] [nvarchar](7) COLLATE Latin1_General_CI_AS NULL,
+	[AssetId] [bigint] NULL,
+	[EquipmentVendorId] [bigint] NULL,
+	[AcquisitionLocationId] [bigint] NULL,
+	[TaxCodeId] [bigint] NULL,
+	[PayableInvoiceId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

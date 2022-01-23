@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "TaxRates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxRateVersionings",
+    "type": "Table"
+  }
+]

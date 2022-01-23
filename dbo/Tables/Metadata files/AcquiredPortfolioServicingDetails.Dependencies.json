@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AcquiredPortfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ServicingDetails",
+    "type": "Table"
+  }
+]

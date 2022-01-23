@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptDiscountingContracts_Extract",
+    "type": "Table"
+  }
+]

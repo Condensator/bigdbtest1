@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ActivityStatusConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ActivityTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UserSelectionParams",
+    "type": "Table"
+  }
+]

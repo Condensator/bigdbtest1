@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditDecisions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CustomerThirdPartyRelationships",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

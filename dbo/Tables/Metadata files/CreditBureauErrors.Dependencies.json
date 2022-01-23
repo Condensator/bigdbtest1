@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditBureauRequests",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "FICOErrorMessageConfigs",
+    "type": "Table"
+  }
+]

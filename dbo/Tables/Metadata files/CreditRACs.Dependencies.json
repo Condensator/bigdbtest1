@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditDecisions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RACs",
+    "type": "Table"
+  }
+]

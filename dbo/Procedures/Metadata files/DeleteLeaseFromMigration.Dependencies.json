@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ContractOriginations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxExemptRules",
+    "type": "Table"
+  }
+]

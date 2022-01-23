@@ -1,0 +1,27 @@
+CREATE TYPE [dbo].[ReAccrualContract] AS TABLE(
+	[ReAccrualDate] [date] NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[IsActive] [bit] NOT NULL,
+	[NBV_Amount] [decimal](16, 2) NOT NULL,
+	[NBV_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[NBVWithBlended_Amount] [decimal](16, 2) NOT NULL,
+	[NBVWithBlended_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[TotalOutstandingAR_Amount] [decimal](16, 2) NOT NULL,
+	[TotalOutstandingAR_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[AccountingDate] [date] NULL,
+	[LastReceiptDate] [date] NULL,
+	[SuspendedIncome_Amount] [decimal](16, 2) NOT NULL,
+	[SuspendedIncome_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[ResumeBilling] [bit] NOT NULL,
+	[NonAccrualDate] [date] NULL,
+	[LastIncomeUpdateDate] [date] NULL,
+	[ContractId] [bigint] NOT NULL,
+	[ReAccrualId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

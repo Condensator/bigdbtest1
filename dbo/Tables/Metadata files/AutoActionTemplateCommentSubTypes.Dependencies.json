@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AutoActionTemplateComments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CommentTypeSubTypes",
+    "type": "Table"
+  }
+]

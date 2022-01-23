@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "SalesTaxReceivableDetail_Extract",
+    "type": "Table"
+  }
+]

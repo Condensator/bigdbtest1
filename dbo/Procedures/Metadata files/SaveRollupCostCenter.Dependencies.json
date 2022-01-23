@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "RollupCostCenters",
+    "type": "Table"
+  }
+]

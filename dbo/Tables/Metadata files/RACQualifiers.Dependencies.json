@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BondRatings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RACRuleConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RACs",
+    "type": "Table"
+  }
+]

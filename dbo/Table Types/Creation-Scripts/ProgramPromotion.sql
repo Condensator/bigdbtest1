@@ -1,0 +1,25 @@
+CREATE TYPE [dbo].[ProgramPromotion] AS TABLE(
+	[PromotionCode] [nvarchar](40) COLLATE Latin1_General_CI_AS NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[IsActive] [bit] NOT NULL,
+	[IsBlindPromotion] [bit] NOT NULL,
+	[BeginDate] [date] NOT NULL,
+	[EndDate] [date] NOT NULL,
+	[Description] [nvarchar](200) COLLATE Latin1_General_CI_AS NOT NULL,
+	[CommissionPercentage] [decimal](5, 2) NULL,
+	[IsLessorServiced] [bit] NOT NULL,
+	[IsLessorCollected] [bit] NOT NULL,
+	[IsPerfectPay] [bit] NOT NULL,
+	[IsPrivateLabel] [bit] NOT NULL,
+	[IsNonNotification] [bit] NOT NULL,
+	[ProgramRateCardId] [bigint] NULL,
+	[BlendedItemCodeId] [bigint] NULL,
+	[ProgramDetailId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

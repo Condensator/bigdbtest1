@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeveragedLeaseRestructureReasonConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeveragedLeases",
+    "type": "Table"
+  }
+]

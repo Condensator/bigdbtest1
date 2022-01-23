@@ -1,0 +1,16 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE FUNCTION [dbo].[IsStringNullOrEmpty] (@String VARCHAR(MAX))
+RETURNS BIT
+BEGIN
+DECLARE @Result AS BIT
+IF @String IS NULL OR @String = ''
+SET @Result = 1
+ELSE
+SET @Result = 0
+RETURN @Result
+END
+
+GO

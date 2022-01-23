@@ -1,0 +1,47 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditApprovedStructures",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfileOFACHits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfileOFACRequests",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfiles",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "OFACHits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "OFACRequests",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TransactionInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItems",
+    "type": "Table"
+  }
+]

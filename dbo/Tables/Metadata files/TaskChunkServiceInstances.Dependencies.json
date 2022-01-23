@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "JobServices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaskChunkInstances",
+    "type": "Table"
+  }
+]

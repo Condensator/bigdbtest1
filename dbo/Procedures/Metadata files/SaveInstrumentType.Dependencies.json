@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "InstrumentTypes",
+    "type": "Table"
+  }
+]

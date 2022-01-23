@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CommentTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UserSelectionParams",
+    "type": "Table"
+  }
+]

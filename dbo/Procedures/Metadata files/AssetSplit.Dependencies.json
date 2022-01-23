@@ -1,0 +1,72 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetIncomeSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetSplitTemp",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DeferredTaxes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GetColumnList",
+    "type": "Function"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAmendments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAssetIncomeDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinanceDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseIncomeSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeasePaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReAccrualContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "SplitAmountColumns",
+    "type": "Function"
+  }
+]

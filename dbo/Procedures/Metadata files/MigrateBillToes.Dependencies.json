@@ -1,0 +1,62 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreateProcessingLog",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "ExceptionLog",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "GlobalParameters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceFormats",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceGroupingParameters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceTypeLabelConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InvoiceTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LanguageConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableCategories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypeLabelConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypeLanguageLabels",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableTypes",
+    "type": "Table"
+  }
+]

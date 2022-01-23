@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "TaxDepAmortizationDetails",
+    "type": "Table"
+  }
+]

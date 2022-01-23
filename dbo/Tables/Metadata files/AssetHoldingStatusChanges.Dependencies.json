@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BookDepreciationTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BusinessUnits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplates",
+    "type": "Table"
+  }
+]

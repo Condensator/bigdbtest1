@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BusinessUnits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Programs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RACPrograms",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RACs",
+    "type": "Table"
+  }
+]

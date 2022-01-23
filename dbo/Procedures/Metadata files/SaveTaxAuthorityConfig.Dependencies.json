@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "TaxAuthorityConfigs",
+    "type": "Table"
+  }
+]

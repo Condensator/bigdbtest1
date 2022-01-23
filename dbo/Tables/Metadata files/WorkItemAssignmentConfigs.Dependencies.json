@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "UserGroups",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItemConfigs",
+    "type": "Table"
+  }
+]

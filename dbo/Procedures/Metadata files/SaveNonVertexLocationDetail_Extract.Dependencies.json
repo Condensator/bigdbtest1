@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "NonVertexLocationDetail_Extract",
+    "type": "Table"
+  }
+]

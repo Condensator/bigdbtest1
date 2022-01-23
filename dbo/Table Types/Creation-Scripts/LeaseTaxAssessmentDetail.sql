@@ -1,0 +1,27 @@
+CREATE TYPE [dbo].[LeaseTaxAssessmentDetail] AS TABLE(
+	[SalesTaxRate] [decimal](10, 6) NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[SalesTaxAmount_Amount] [decimal](16, 2) NOT NULL,
+	[SalesTaxAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[OtherBasisTypesAvailable] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[UpfrontTaxMode] [nvarchar](6) COLLATE Latin1_General_CI_AS NULL,
+	[IsActive] [bit] NOT NULL,
+	[Exemption] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[PrepaidUpfrontTax_Amount] [decimal](16, 2) NOT NULL,
+	[PrepaidUpfrontTax_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[UpfrontTaxPayable_Amount] [decimal](16, 2) NOT NULL,
+	[UpfrontTaxPayable_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[TaxBasisTypeId] [bigint] NULL,
+	[LocationId] [bigint] NULL,
+	[AssetTypeId] [bigint] NULL,
+	[TaxCodeId] [bigint] NULL,
+	[TaxTypeId] [bigint] NULL,
+	[LeaseFinanceId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

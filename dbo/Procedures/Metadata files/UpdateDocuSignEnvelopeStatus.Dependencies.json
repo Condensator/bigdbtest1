@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ESignEnvelopeRecipients",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ESignEnvelopes",
+    "type": "Table"
+  }
+]

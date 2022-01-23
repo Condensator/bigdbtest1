@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditLGDCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfiles",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LowSideOverrideReasonCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

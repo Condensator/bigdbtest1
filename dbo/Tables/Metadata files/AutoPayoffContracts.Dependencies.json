@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AutoPayoffTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  }
+]

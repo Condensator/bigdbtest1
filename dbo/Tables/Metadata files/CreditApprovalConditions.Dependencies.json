@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ApprovalConditionConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditDecisions",
+    "type": "Table"
+  }
+]

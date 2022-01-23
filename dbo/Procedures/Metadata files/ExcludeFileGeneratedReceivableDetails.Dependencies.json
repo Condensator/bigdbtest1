@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ACHSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "OneTimeACHInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "OneTimeACHReceivableDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "OneTimeACHReceivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "OneTimeACHSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReversalReceivableDetail_Extract",
+    "type": "Table"
+  }
+]

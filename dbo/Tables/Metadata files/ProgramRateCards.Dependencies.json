@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProgramDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RateCards",
+    "type": "Table"
+  }
+]

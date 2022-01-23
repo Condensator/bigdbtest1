@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CIPDocumentSourceConfigs",
+    "type": "Table"
+  }
+]

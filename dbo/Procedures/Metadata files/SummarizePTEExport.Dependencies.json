@@ -1,0 +1,27 @@
+[
+  {
+    "schema": "dbo",
+    "name": "OneSourceExportDetailExtracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PPTExtractDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PropertyTaxExportFileDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PropertyTaxExportJobExtracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PtmsExportDetailExtracts",
+    "type": "Table"
+  }
+]

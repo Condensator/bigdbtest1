@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CollectionQueues",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CollectionsJobExtracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CollectionWorkListContractDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CollectionWorkLists",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CurrencyCodes",
+    "type": "Table"
+  }
+]

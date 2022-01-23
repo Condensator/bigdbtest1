@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Activities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Attachments",
+    "type": "Table"
+  }
+]

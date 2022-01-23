@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "VertexAssetSKUDetail_Extract",
+    "type": "Table"
+  }
+]

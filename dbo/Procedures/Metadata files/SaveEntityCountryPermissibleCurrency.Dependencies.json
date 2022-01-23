@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "EntityCountryPermissibleCurrencies",
+    "type": "Table"
+  }
+]

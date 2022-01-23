@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "OFACHits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Parties",
+    "type": "Table"
+  }
+]

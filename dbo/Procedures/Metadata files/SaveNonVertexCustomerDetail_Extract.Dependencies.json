@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "NonVertexCustomerDetail_Extract",
+    "type": "Table"
+  }
+]

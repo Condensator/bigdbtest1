@@ -1,0 +1,27 @@
+CREATE TYPE [dbo].[PreQuoteLoan] AS TABLE(
+	[IsActive] [bit] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[OutstandingLoanRental_Amount] [decimal](16, 2) NOT NULL,
+	[OutstandingLoanRental_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[PrincipalBalance_Amount] [decimal](16, 2) NOT NULL,
+	[PrincipalBalance_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[InterestBalance_Amount] [decimal](16, 2) NOT NULL,
+	[InterestBalance_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[AmortProcessThroughDate] [date] NULL,
+	[AsOfDate] [date] NULL,
+	[HasPrepaymentPenalty] [bit] NOT NULL,
+	[LoanAmount_Amount] [decimal](16, 2) NOT NULL,
+	[LoanAmount_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NOT NULL,
+	[ManagementYield] [decimal](28, 18) NOT NULL,
+	[PreQuoteContractId] [bigint] NOT NULL,
+	[LoanFinanceId] [bigint] NOT NULL,
+	[LoanPaydownId] [bigint] NULL,
+	[PreQuoteId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

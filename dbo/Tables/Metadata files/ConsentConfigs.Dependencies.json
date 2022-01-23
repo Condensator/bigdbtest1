@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Consents",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentTypes",
+    "type": "Table"
+  }
+]

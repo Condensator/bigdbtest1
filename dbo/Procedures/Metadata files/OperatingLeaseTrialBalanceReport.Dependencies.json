@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ConvertCSVToStringTable",
+    "type": "TF"
+  },
+  {
+    "schema": "dbo",
+    "name": "RemainingNetInvestments",
+    "type": "Table"
+  }
+]

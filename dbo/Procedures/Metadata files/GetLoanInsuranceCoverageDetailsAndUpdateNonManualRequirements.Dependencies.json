@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CollateralAssets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CoverageTypeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InsuranceCoverageDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InsuranceTemplateDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InsuranceTemplates",
+    "type": "Table"
+  }
+]

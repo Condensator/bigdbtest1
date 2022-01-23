@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "TaxImpositionTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxRateHeaders",
+    "type": "Table"
+  }
+]

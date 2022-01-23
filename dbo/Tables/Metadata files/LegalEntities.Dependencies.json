@@ -1,0 +1,52 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BusinessCalendars",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BusinessTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BusinessUnits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Currencies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLConfigurations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "NonAccrualRuleTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReAccrualRuleTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptHierarchyTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

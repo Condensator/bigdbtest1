@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DiscountingNonAccruals",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Discountings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GLTemplates",
+    "type": "Table"
+  }
+]

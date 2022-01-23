@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CreditApplicationPaymentSchedules",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ExceptionLog",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "ExternalBusinessTypeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GlobalParameters",
+    "type": "Table"
+  }
+]

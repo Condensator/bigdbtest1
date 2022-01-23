@@ -1,0 +1,25 @@
+CREATE TYPE [dbo].[AssetHoldingStatusChangeParamType] AS TABLE(
+	[AssetId] [bigint] NOT NULL,
+	[HistoryReason] [nvarchar](80) COLLATE Latin1_General_CI_AS NULL,
+	[AsOfDate] [date] NULL,
+	[AcquisitionDate] [date] NULL,
+	[Status] [nvarchar](30) COLLATE Latin1_General_CI_AS NULL,
+	[FinancialType] [nvarchar](50) COLLATE Latin1_General_CI_AS NULL,
+	[SourceModule] [nvarchar](50) COLLATE Latin1_General_CI_AS NULL,
+	[SourceId] [bigint] NULL,
+	[CustomerId] [bigint] NULL,
+	[ParentAssetId] [bigint] NULL,
+	[LegalEntityId] [bigint] NULL,
+	[PropertyTaxReportCodeId] [bigint] NULL,
+	[InstrumentTypeId] [bigint] NULL,
+	[LineofBusinessId] [bigint] NULL,
+	[OriginalInstrumentTypeId] [bigint] NULL,
+	[OriginalLineofBusinessId] [bigint] NULL,
+	[AssetBookValueAdjustmentGLTemplateId] [bigint] NULL,
+	[BookDepreciationGLTemplateId] [bigint] NULL,
+	[CostCenterId] [bigint] NULL,
+	[AssetHoldingStatusChangeId] [bigint] NULL,
+	[NewHoldingStatus] [nvarchar](6) COLLATE Latin1_General_CI_AS NULL,
+	[BranchId] [bigint] NULL
+)
+GO

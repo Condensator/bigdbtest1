@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetCatalogs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetGLDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AssetHistories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Assets",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Manufacturers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Products",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ProductSubTypes",
+    "type": "Table"
+  }
+]

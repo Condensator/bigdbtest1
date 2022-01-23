@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CustomerBankAccountPaymentThresholds",
+    "type": "Table"
+  }
+]

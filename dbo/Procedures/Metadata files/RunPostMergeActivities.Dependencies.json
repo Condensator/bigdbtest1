@@ -1,0 +1,47 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CPUContracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfiles",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "InsurancePolicies",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Mig_Constraints",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Mig_LWTables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receipts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReSeedDB",
+    "type": "Procedure"
+  },
+  {
+    "schema": "dbo",
+    "name": "ResetAllIdentity",
+    "type": "Procedure"
+  }
+]

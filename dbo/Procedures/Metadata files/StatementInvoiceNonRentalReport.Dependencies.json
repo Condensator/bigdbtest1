@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "GenericInvoiceComments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoices",
+    "type": "Table"
+  }
+]

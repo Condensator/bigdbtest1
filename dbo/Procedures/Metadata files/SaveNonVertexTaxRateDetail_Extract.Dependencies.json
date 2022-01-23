@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "NonVertexTaxRateDetail_Extract",
+    "type": "Table"
+  }
+]

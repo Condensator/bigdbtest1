@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BankAccounts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BusinessUnits",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "IsStringNullOrEmpty",
+    "type": "Function"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntityBankAccounts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptPostByLockBox_Extract",
+    "type": "Table"
+  }
+]

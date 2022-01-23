@@ -1,0 +1,14 @@
+CREATE TYPE [dbo].[BillToInvoiceBodyDynamicContent] AS TABLE(
+	[IncludeInInvoice] [bit] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[IsActive] [bit] NOT NULL,
+	[InvoiceBodyDynamicContentId] [bigint] NOT NULL,
+	[BillToId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

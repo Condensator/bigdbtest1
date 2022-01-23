@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Activities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ActivityStatusConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

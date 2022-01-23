@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ExternalNotificationRecipients",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Notifications",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "UserGroups",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Users",
+    "type": "Table"
+  }
+]

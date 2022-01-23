@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssumptionTaxAssessmentDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxBasisTypes",
+    "type": "Table"
+  }
+]

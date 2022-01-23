@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceivableInvoicePastDueDetails",
+    "type": "Table"
+  }
+]

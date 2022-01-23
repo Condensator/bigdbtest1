@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "VertexContractDetail_Extract",
+    "type": "Table"
+  }
+]

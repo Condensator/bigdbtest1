@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "GlobalParameters",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxDepEntities",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TaxDepTemplates",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,21 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROC [dbo].[VP_GetVendorStatus]
+(
+@PartyNumber NVARCHAR(MAX),
+@VendorStatus NVARCHAR(20) OUT
+)
+AS
+BEGIN
+SET NOCOUNT ON;
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+SELECT
+@VendorStatus =  V.Status
+FROM Vendors V
+JOIN Parties P on V.Id=P.Id
+AND P.PartyNumber = @PartyNumber
+END
+
+GO

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Mig_LWTables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Mig_TablesRowCounts",
+    "type": "Table"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "LineofBusinesses",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RVIParameters",
+    "type": "Table"
+  }
+]

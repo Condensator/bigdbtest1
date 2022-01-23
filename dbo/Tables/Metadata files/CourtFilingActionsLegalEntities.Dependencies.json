@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CourtFilingActions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LegalEntities",
+    "type": "Table"
+  }
+]

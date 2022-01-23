@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ContractLateFeeDetails",
+    "type": "Table"
+  }
+]

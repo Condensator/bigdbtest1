@@ -1,0 +1,32 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ConvertCSVToBigIntTable",
+    "type": "TF"
+  },
+  {
+    "schema": "dbo",
+    "name": "TransactionInstances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItemAssignments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItemConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItems",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItemSubSystemConfigs",
+    "type": "Table"
+  }
+]

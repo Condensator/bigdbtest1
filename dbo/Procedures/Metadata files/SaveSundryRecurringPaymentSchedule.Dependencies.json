@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "SundryRecurringPaymentSchedules",
+    "type": "Table"
+  }
+]

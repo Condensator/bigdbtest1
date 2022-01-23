@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "Contracts",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "JobStepInstanceLogs",
+    "type": "Table"
+  }
+]

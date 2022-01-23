@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentBusinessEntityConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentEntityConfigs",
+    "type": "Table"
+  }
+]

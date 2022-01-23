@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AssetSKUs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CreditProfileEquipmentDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseAssets",
+    "type": "Table"
+  }
+]

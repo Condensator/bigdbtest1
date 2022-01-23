@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PaymentVouchers",
+    "type": "Table"
+  }
+]

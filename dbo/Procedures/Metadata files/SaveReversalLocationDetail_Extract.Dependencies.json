@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReversalLocationDetail_Extract",
+    "type": "Table"
+  }
+]

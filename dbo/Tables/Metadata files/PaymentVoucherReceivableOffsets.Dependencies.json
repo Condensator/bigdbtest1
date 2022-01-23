@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AccountsPayableReceivables",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PaymentVouchers",
+    "type": "Table"
+  }
+]

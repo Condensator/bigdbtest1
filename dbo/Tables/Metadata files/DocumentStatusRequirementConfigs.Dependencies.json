@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DocumentStatusForTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DocumentTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "TransactionConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "WorkItemActionConfigs",
+    "type": "Table"
+  }
+]

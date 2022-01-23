@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "TreasuryPayableDetails",
+    "type": "Table"
+  }
+]

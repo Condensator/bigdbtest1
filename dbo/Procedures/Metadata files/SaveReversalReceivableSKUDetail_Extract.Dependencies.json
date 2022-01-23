@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReversalReceivableSKUDetail_Extract",
+    "type": "Table"
+  }
+]

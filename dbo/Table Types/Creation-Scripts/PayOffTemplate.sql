@@ -1,0 +1,27 @@
+CREATE TYPE [dbo].[PayOffTemplate] AS TABLE(
+	[TemplateName] [nvarchar](40) COLLATE Latin1_General_CI_AS NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[Description] [nvarchar](200) COLLATE Latin1_General_CI_AS NOT NULL,
+	[IsActive] [bit] NOT NULL,
+	[TemplateType] [nvarchar](8) COLLATE Latin1_General_CI_AS NULL,
+	[FRRApplicable] [bit] NOT NULL,
+	[FRROption] [nvarchar](17) COLLATE Latin1_General_CI_AS NULL,
+	[RetainedVendorApplicable] [bit] NOT NULL,
+	[VendorRetained] [bit] NOT NULL,
+	[IsEPOApplicable] [bit] NOT NULL,
+	[IsApplicableWhenEPOAvailable] [bit] NOT NULL,
+	[ApplicableforFloatRateContract] [bit] NOT NULL,
+	[TradeupFeeApplicable] [bit] NOT NULL,
+	[TradeupFeeCalculationMethod] [nvarchar](9) COLLATE Latin1_General_CI_AS NULL,
+	[TradeupFeeAmount] [decimal](16, 2) NOT NULL,
+	[PayoffTradeUpFeeId] [bigint] NULL,
+	[ReceivableCodeId] [bigint] NULL,
+	[PortfolioId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

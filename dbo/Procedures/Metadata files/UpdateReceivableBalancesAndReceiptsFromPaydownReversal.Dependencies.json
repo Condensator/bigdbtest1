@@ -1,0 +1,17 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DSLReceiptHistories",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptPostByDSLDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Receipts",
+    "type": "Table"
+  }
+]

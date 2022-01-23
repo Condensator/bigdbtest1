@@ -1,0 +1,28 @@
+CREATE TYPE [dbo].[PreQuotePaymentSummary] AS TABLE(
+	[EffectiveDate] [date] NOT NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[ReceivableCode] [nvarchar](40) COLLATE Latin1_General_CI_AS NULL,
+	[LastBilledDate] [date] NULL,
+	[Current_Amount] [decimal](16, 2) NULL,
+	[Current_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[Paid_Amount] [decimal](16, 2) NULL,
+	[Paid_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[Delinquent_Amount] [decimal](16, 2) NULL,
+	[Delinquent_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[Future_Amount] [decimal](16, 2) NULL,
+	[Future_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[Remaining_Amount] [decimal](16, 2) NULL,
+	[Remaining_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[Total_Amount] [decimal](16, 2) NULL,
+	[Total_Currency] [nvarchar](3) COLLATE Latin1_General_CI_AS NULL,
+	[IsActive] [bit] NOT NULL,
+	[ContractId] [bigint] NULL,
+	[PreQuoteId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

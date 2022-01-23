@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "CustomerDoingBusinessAs",
+    "type": "Table"
+  }
+]

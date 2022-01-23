@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "MaturityActivityTypes",
+    "type": "Table"
+  }
+]

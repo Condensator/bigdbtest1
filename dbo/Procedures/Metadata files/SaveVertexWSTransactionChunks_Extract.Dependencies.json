@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "VertexWSTransactionChunks_Extract",
+    "type": "Table"
+  }
+]

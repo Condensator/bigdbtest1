@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "FileStores",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "GetContentGuid",
+    "type": "Function"
+  },
+  {
+    "schema": "dbo",
+    "name": "Logoes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "RemitToes",
+    "type": "Table"
+  }
+]

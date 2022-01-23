@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "PayOffTemplates",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayoffTemplateTerminationTypeConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "PayoffTerminationExpressions",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Portfolios",
+    "type": "Table"
+  }
+]

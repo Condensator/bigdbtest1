@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "OriginationVendorChangeHistories",
+    "type": "Table"
+  }
+]

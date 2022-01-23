@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ReceiptOTPReceivables_Extract",
+    "type": "Table"
+  }
+]

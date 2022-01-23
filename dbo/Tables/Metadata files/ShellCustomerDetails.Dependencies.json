@@ -1,0 +1,37 @@
+[
+  {
+    "schema": "dbo",
+    "name": "BusinessTypeNAICSCodes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "BusinessTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CIPDocumentSourceConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CustomerApprovedExchangesConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "CustomerApprovedRegulatorsConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "States",
+    "type": "Table"
+  }
+]

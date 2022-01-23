@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "JobNotificationConfigs",
+    "type": "Table"
+  }
+]

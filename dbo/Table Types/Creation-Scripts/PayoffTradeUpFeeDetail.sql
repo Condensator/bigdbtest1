@@ -1,0 +1,25 @@
+CREATE TYPE [dbo].[PayoffTradeUpFeeDetail] AS TABLE(
+	[RemainingNumberofMonths] [bigint] NULL,
+	[Id] [bigint] NOT NULL,
+	[CreatedById] [bigint] NOT NULL,
+	[CreatedTime] [datetimeoffset](7) NOT NULL,
+	[UpdatedById] [bigint] NULL,
+	[UpdatedTime] [datetimeoffset](7) NULL,
+	[Field1] [decimal](5, 2) NULL,
+	[Field2] [decimal](5, 2) NULL,
+	[Field3] [decimal](5, 2) NULL,
+	[Field4] [decimal](5, 2) NULL,
+	[Field5] [decimal](5, 2) NULL,
+	[Field6] [decimal](5, 2) NULL,
+	[Field7] [decimal](5, 2) NULL,
+	[Field8] [decimal](5, 2) NULL,
+	[Field9] [decimal](5, 2) NULL,
+	[Field10] [decimal](5, 2) NULL,
+	[IsHeaderRecord] [bit] NOT NULL,
+	[NumberOfColumns] [bigint] NOT NULL,
+	[IsActive] [bit] NOT NULL,
+	[PayoffTradeUpFeeId] [bigint] NOT NULL,
+	[Token] [int] NOT NULL,
+	[RowVersion] [bigint] NULL
+)
+GO

@@ -1,0 +1,7 @@
+[
+  {
+    "schema": "dbo",
+    "name": "UnappliedReceipts",
+    "type": "Table"
+  }
+]

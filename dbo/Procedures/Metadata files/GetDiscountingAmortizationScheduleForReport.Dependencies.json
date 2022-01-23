@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "DiscountingFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingPaydowns",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "DiscountingRepaymentSchedules",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Discountings",
+    "type": "Table"
+  }
+]

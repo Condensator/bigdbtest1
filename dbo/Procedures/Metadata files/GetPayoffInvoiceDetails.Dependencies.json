@@ -1,0 +1,47 @@
+[
+  {
+    "schema": "dbo",
+    "name": "ContractOriginations",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ContractOriginationServicingDetails",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "LeaseFinances",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "OriginationSourceTypes",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Payoffs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableForTransferFundingSources",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableForTransfers",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceivableForTransferServicings",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ServicingDetails",
+    "type": "Table"
+  }
+]

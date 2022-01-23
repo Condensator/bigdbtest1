@@ -1,0 +1,22 @@
+[
+  {
+    "schema": "dbo",
+    "name": "AMLChoiceConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AMLMasterConfigs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "AMLRiskAssessments",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "Countries",
+    "type": "Table"
+  }
+]

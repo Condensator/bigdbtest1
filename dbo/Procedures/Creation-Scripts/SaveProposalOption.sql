@@ -1,0 +1,36 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+CREATE PROC [dbo].[SaveProposalOption]
+(
+ @val [dbo].[ProposalOption] READONLY
+)
+AS
+SET NOCOUNT ON;
+DECLARE @Output TABLE(
+ [Action] NVARCHAR(10) NOT NULL,
+ [Id] bigint NOT NULL,
+ [Token] int NOT NULL,
+ [RowVersion] BIGINT,
+ [OldRowVersion] BIGINT
+)
+MERGE [dbo].[ProposalOptions] With (ForceSeek) AS T
+USING (SELECT * FROM @val) AS S
+		ON ( T.Id = S.Id)
+WHEN MATCHED THEN
+	UPDATE SET [Amount_Amount]=S.[Amount_Amount],[Amount_Currency]=S.[Amount_Currency],[IsActive]=S.[IsActive],[ProposalOption]=S.[ProposalOption],[ProposalOptionTerms]=S.[ProposalOptionTerms],[PurchaseFactor]=S.[PurchaseFactor],[RenewalFactor]=S.[RenewalFactor],[RestockingFee]=S.[RestockingFee],[UpdatedById]=S.[UpdatedById],[UpdatedTime]=S.[UpdatedTime]
+WHEN NOT MATCHED THEN
+	INSERT ([Amount_Amount],[Amount_Currency],[CreatedById],[CreatedTime],[IsActive],[ProposalExhibitId],[ProposalOption],[ProposalOptionTerms],[PurchaseFactor],[RenewalFactor],[RestockingFee])
+    VALUES (S.[Amount_Amount],S.[Amount_Currency],S.[CreatedById],S.[CreatedTime],S.[IsActive],S.[ProposalExhibitId],S.[ProposalOption],S.[ProposalOptionTerms],S.[PurchaseFactor],S.[RenewalFactor],S.[RestockingFee])
+
+OUTPUT $action, Inserted.Id, S.Token, Inserted.[RowVersion], Deleted.[RowVersion]
+INTO @Output;
+
+SELECT o.Id, o.Token, o.[RowVersion], CASE WHEN s.[RowVersion] <> o.[OldRowVersion] THEN 1 ELSE 0 END as ErrorCode FROM @Output o join @val s on o.Token = s.Token AND [Action] = 'UPDATE'
+UNION ALL
+SELECT Id, Token, [RowVersion], 0 as ErrorCode FROM @Output WHERE [Action] = 'INSERT';
+
+GO

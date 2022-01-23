@@ -1,0 +1,12 @@
+[
+  {
+    "schema": "dbo",
+    "name": "JobStepInstanceLogs",
+    "type": "Table"
+  },
+  {
+    "schema": "dbo",
+    "name": "ReceiptPostByLockBox_Extract",
+    "type": "Table"
+  }
+]
