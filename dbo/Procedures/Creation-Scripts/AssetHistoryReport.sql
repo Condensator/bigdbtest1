@@ -3,7 +3,8 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE PROC [dbo].[AssetHistoryReport]  
+
+CREATE   PROC [dbo].[AssetHistoryReport]  
 @FromAssetId BIGINT = NULL,  
 @ToAssetId BIGINT = NULL,  
 @CustomerId Nvarchar(100) = NULL,  
@@ -20,9 +21,9 @@ AS
 --declare @Culture As nvarchar(50) = 'en-US'  
 BEGIN  
 SET NOCOUNT ON;
-DECLARE @FilterConditions nvarchar(max)  
-DECLARE @sql nvarchar(max)  
-Set @FilterConditions = ''  
+DECLARE @FilterConditions nvarchar(1000)  
+DECLARE @sql nvarchar(1000)  
+Set @FilterConditions = ' '  
 IF @CustomerId IS NOT NULL  
 BEGIN  
 SET @FilterConditions = @FilterConditions +  ' AND  Parties.PartyNumber = @CustomerId '  
